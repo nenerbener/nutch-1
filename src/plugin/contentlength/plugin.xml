@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="contentlength" name="Add contentlength field (cl) to Index"
+    version="1.0.0" provider-name="marc mceachern">
+ 
+   <runtime>
+     <library name="contentlength.jar">
+       <export name="*"/>
+     </library>
+   </runtime>
+ 
+   <extension id="org.apache.nutch.indexer.contentlength"
+       name="Add contentlength field to Index"
+       point="org.apache.nutch.indexer.IndexingFilter">
+     <implementation id="contentlength"
+         class="org.apache.nutch.indexer.contentlength.ContentLength"/>
+   </extension>
+</plugin>

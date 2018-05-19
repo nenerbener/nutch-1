@@ -1,0 +1,1585 @@
+
+Recno:: 0
+URL:: http://www.breitbart.com/
+
+CrawlDatum::
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Sat May 19 03:22:55 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 	_ngt_=1526725392264
+
+Content::
+Version: -1
+url: http://www.breitbart.com/
+base: http://www.breitbart.com/
+contentType: text/html
+metadata: X-Cache=HIT Server=ECS (oxr/8313) Connection=close Last-Modified=Sat, 19 May 2018 10:22:29 GMT X-BAT=HIT Date=Sat, 19 May 2018 10:23:51 GMT nutch.crawl.score=1.0 nutch.fetch.time=1526725431486 Accept-Ranges=bytes nutch.segment.name=20180519032314 X-Varnish=1477765229 1477765137 Cache-Control=max-age=120 Content-Encoding=gzip X-ttl=from_backend Vary=Accept-Encoding Content-Length=28824 _fst_=33 X-Backend=web2 X-Node=90ca4bfadfb4 Content-Type=text/html; charset=UTF-8 
+Content:
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# dc: http://purl.org/dc/elements/1.1/# v: http://rdf.data-vocabulary.org/# op: http://media.facebook.com/op# article: http://ogp.me/ns/article#">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<link rel="preload" href="/t/style-015267913.css" as="style">
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Fjalla+One" as="style">
+	<script>/*
+ loadCSS. [c]2017 Filament Group, Inc. MIT License */
+(function(c){function g(a){if(a in h)return h[a];var b="relList"in e&&"supports"in e.relList?e.relList:!1;h[a]=b?b.supports(a):!1;return h[a]}function n(a){if(!g("preconnect")){var b=e.cloneNode();b.setAttribute("rel","dns-prefetch");b.setAttribute("href",a);b.onload=function(){b&&b.parentNode&&b.parentNode.removeChild(b);b.onload=null};f.head.appendChild(b)}var d=e.cloneNode();d.setAttribute("rel","preconnect");d.setAttribute("referrerpolicy","origin");d.setAttribute("href",a);d.onload=function(){d.onload=
+null;d&&d.parentNode&&d.parentNode.removeChild(d)};f.head.appendChild(d);if(!g("preconnect")&&k){var c=new XMLHttpRequest;c.open("HEAD",a+"?cachebust="+Date.now(),!0);c.send()}}function p(a){var b=e.cloneNode();if(!k||"fetch"!==a.a&&"document"!==a.a)return b.setAttribute("rel",g("preload")?"preload":"prefetch"),b.setAttribute("as",a.a),b.setAttribute("referrerpolicy","origin"),"t"in a&&b.setAttribute("type",a.t),"m"in a&&b.setAttribute("media",a.m),"image"!==a.a&&b.setAttribute("crossorigin",!0),
+b.setAttribute("href",a.h),b}var f=c.document,h={},e=f.createElement("link");c=c.navigator.userAgent;var l=/Edge/i.test(c),q=/Chrome|CriOS/i.test(c)&&!l,k=/Safari/i.test(c)&&!q&&!l;if(-1===String(f.cookie).indexOf("Pl6")){g("preconnect")&&n("http://media.breitbart.com");var m=f.createDocumentFragment();[{h:"/t/assets/fonts/bbn.woff2",a:"font",t:"font/woff2"},{h:"https://www.googletagservices.com/tag/js/gpt.js",a:"script"},{h:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",a:"script"},
+{h:"/t/assets/i/sprite-h.png",a:"image"},{h:"https://connect.facebook.net/en_US/sdk.js",a:"script",m:"(max-width:1010px)"},{h:"https://connect.facebook.net/en_US/fbadnw55.js",a:"script",m:"(max-width:1010px)"},{h:"/t/assets/iframe/fb-ads1.html",a:"fetch",t:"text/html",m:"(max-width:1010px)"},{h:"http://media.breitbart.com/media/2015/12/logo-mobile.png",a:"image",m:"(max-width:1010px)"},{h:"http://media.breitbart.com/media/2015/10/spriteg.png",a:"image",m:"(min-width:1010px)"},{h:"http://media.breitbart.com/media/2017/06/flag.jpg",
+a:"image",m:"(min-width:1010px)"}].forEach(function(a){m.appendChild(p(a))});c=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=c[c.length-1];ref.parentNode.insertBefore(m,ref.nextSibling)}})(window);
+</script>
+	<link href="/t/style-015267913.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="home" href="http://www.breitbart.com" title="Breitbart.com">
+	<link rel="search" href="/search/">
+	<link rel="search" type="application/opensearchdescription+xml" href="http://www.breitbart.com/opensearch.xml">
+	<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/breitbart" title="Breitbart News Feed">
+	<link rel="alternate" href="http://www.breitbart.com" hreflang="en-US">
+	<link rel="alternate" href="http://www.breitbart.com" hreflang="en-GB">
+	<link rel="alternate" href="http://www.breitbart.com" hreflang="en-CA">
+		<link rel="apple-touch-icon" sizes="152x152" href="/t/assets/icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon-precomposed" href="/t/assets/icons/w-logo-orange.png">
+	<link rel="icon" href="/t/assets/icons/w-logo-orange.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/t/assets/icons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/t/assets/icons/android-chrome-192x192.png" sizes="192x192">
+	<title>Breitbart News Network</title>
+	<meta name="description" content="Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources.">
+	<link rel="canonical" href="http://www.breitbart.com/">
+	<link rel="publisher" href="https://plus.google.com/110812411499982071387">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Breitbart News Network">
+	<meta property="og:description" content="Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources.">
+	<meta property="og:url" content="http://www.breitbart.com/">
+	<meta property="og:site_name" content="Breitbart">
+	<meta property="fb:app_id" content="1243316582352556">
+	<meta property="og:image" content="http://www.breitbart.com/t/assets/i/BB-logo-highres.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources.">
+	<meta name="twitter:title" content="Breitbart - Breitbart News Network">
+	<meta name="twitter:site" content="@BreitbartNews">
+	<meta name="twitter:image" content="http://www.breitbart.com/t/assets/i/BB-logo-highres.jpg">
+	<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.breitbart.com\/","name":"Breitbart","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.breitbart.com\/search\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+	<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"http:\/\/www.breitbart.com\/","sameAs":["https:\/\/www.facebook.com\/Breitbart","https:\/\/www.instagram.com\/wearebreitbart","https:\/\/plus.google.com\/110812411499982071387","https:\/\/www.youtube.com\/user\/BreitbartNews","https:\/\/twitter.com\/BreitbartNews"],"@id":"http:\/\/www.breitbart.com\/#organization","name":"Breitbart News Network","logo":"http:\/\/www.breitbart.com\/t\/assets\/i\/BB-logo-highres.jpg"}</script>
+	<meta name="google-site-verification" content="57be0AAF56hXmhEIghJn-yEIIvdBPvORILzlMg4NXj8">
+	<meta content="Breitbart News" name="author">
+	<meta content="2018-05-19T10:22:32Z" name="lastmod">
+	<meta content="2018-05-19T10:22:32Z" name="pubdate">
+	<meta content="Politics" name="section">
+	<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebPage","image":{"@type":"ImageObject","url":"http:\/\/media.breitbart.com\/media\/2016\/04\/breitbart-google-amp.jpeg","height":522,"width":696},"mainEntityOfPage":"http:\/\/www.breitbart.com","url":"http:\/\/www.breitbart.com","inLanguage":"en-US","publisher":{"@type":"Organization","name":"Breitbart News Network","url":"http:\/\/www.breitbart.com","sameAs":["https:\/\/www.facebook.com\/Breitbart","https:\/\/twitter.com\/BreitbartNews","https:\/\/www.youtube.com\/user\/BreitbartNews","https:\/\/plus.google.com\/110812411499982071387"],"logo":{"@type":"ImageObject","url":"http:\/\/media.breitbart.com\/media\/2017\/01\/amp-logo2.png","height":60,"width":420}},"datePublished":"Sat, 19 May 2018 10:22:32 +0000","dateModified":"Sat, 19 May 2018 10:22:32 +0000","speakable":{"@type":"SpeakableSpecification","cssSelector":["article header h1","article .entry-content h2","article .entry-content p"]}}</script>
+		<meta property="fb:pages" content="95475020353">
+	<meta itemprop="speakable" itemscope itemtype="https://schema.org/SpeakableSpecification" itemref="spkm1 spkm2">
+	<meta id="spkm1" itemprop="cssSelector" content="header h1">
+	<meta id="spkm2" itemprop="xpath" content="/html/head/meta[@name='description']">
+	<script>var ISCGI={debug:!1,bc:'tp-index home blog js',lock:15267913,is_dev:!1,date:{"t":{"H":10,"M":22,"S":32},"d":{"D":19,"M":5,"Y":18},"ts":1526725352},mg_seed:480506641};(function(b,c){(function(){var a="default es5 Array.prototype.keys DocumentFragment MutationObserver Object.freeze".split(" "),d=["fetch","Promise","IntersectionObserver","matchMedia"];try{b.fetch&&b.Promise&&[].includes&&Object.assign&&b.Map&&b.IntersectionObserver||(d.forEach(function(c){c in b||a.push(c)}),e=c.createElement("script"),e.src="https://cdn.polyfill.io/v2/polyfill.min.js?features="+a.join(",")+"&flags=gated",e.async=!0,c.documentElement.appendChild(e))}catch(m){}})();var a=b.location,
+d=a.pathname,e=b.screen,g=ISCGI.bc,f=b.navigator,l=Date.now(),k="userAgent"in f&&"string"===typeof f.userAgent?f.userAgent:"",h="cookie"in c&&"string"===typeof c.cookie?c.cookie:"";a={mobile:/IEMobile|BB10|Android|Silk|Kindle|Opera Mini|Opera Mobi|webOS|iPhone|iPod|BlackBerry/i.test(k),mobile_plus:/Mobi/i.test(k),tablet:/tablet|ipad|playbook|silk/i.test(k),prod:"www.breitbart.com"===a.host,li:-1<h.indexOf("m8s2f7="),preview:-1<a.href.indexOf("preview=true")&&-1<a.href.indexOf("preview_id="),single:-1<
+g.indexOf("single"),home:/home blog /.test(g),video:0===d.indexOf("/video/"),wire:0===d.indexOf("/news/")||-1<g.indexOf("-wire"),error:-1<g.indexOf("error404"),search:0===d.indexOf("/search/"),ssl:"https:"===c.location.protocol,framed:b!==b.parent,qazy:!1,ads:"www.breitbart.com"===a.host||0<a.host.indexOf("iscsta")||"breitbart.com"===a.host||10===a.href.indexOf(".breitbart.com"),g:-1<h.indexOf("gMxA=")?-1<h.indexOf("gMxA=A")?"A":-1<h.indexOf("gMxA=B")?"B":"C":0===l%2?0===l%4?"A":"B":"C",t:{},adblock:3,
+cookie:"cookieEnabled"in f&&!!f.cookieEnabled,english:"language"in f&&-1<f.language.toLowerCase().indexOf("en"),subbed:-1<h.indexOf("ci2su"),views_y:0,views_w:0,views_d:0};a.mobile_plus=a.tablet||a.mobile_plus||a.mobile||700>(e.width<e.height?e.width:e.height);"matchMedia"in b&&b.matchMedia("screen and (max-width:480px) and (orientation:portrait), screen and (max-width:767px) and (orientation:landscape), screen and (max-width:767px)").matches&&(a.mobile=a.mobile_plus=!0);a.mobile_plus&&(ISCGI.bc=
+"ismobile "+g);a.qazy="scrollY"in b&&!a.canvas&&!a.ssl&&!a.home&&!a.preview&&!a.framed&&!a.mobile_plus&&!(a.video&&!a.single);a.ads=a.ads&&!a.framed;b.ISC_IS=a})(window,document);
+if(ISC_IS.qazy&&window.addEventListener){var qazy={runs:0,io:null,x:0,dimg:new Image,RunIO:function(){50<qazy.runs++&&qazy.StopIO();qazy.MakeList()},StopIO:function(){"number"===typeof qazy.io&&(clearInterval(qazy.io),qazy.io=null)},MakeList:function(){if(!qazy.x&&document.body){if(0<(window.scrollY||window.pageYOffset||document.documentElement.scrollTop))return qazy.StopIO();qazy.x=!0;var b=document.body.querySelectorAll('img[data-qazy="1"][src^="/"], img[data-qazy="1"][src^="http://media.brei"], img[data-qazy="1"][src^="http://www.brei"]'),
+c=b.length;if(0<c)for(var a=0;a<c;a++){var d=b[a];d.setAttribute("data-qazy","0");d.setAttribute("data-qazy-src",d.src);d.src=qazy.dimg.src}qazy.x=!1}}};qazy.dimg.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";qazy.io=setInterval(qazy.RunIO,150);window.addEventListener("load",qazy.StopIO,!1)}
+function sbf2lo(){document.cookie&&window.Cookies&&"undefined"!==typeof Cookies.set?Cookies.set("Bf2","0",{expires:new Date((new Date).getTime()+6E5),path:"/"}):6>sbf2lo.runs++&&setTimeout(sbf2lo,3E3)}sbf2lo.runs=0;function sbf2li(){document.cookie&&window.Cookies&&"undefined"!==typeof Cookies.set?Cookies.set("Bf2","1",{expires:1,path:"/"}):6>sbf2li.runs++&&setTimeout(sbf2li,3E3)}sbf2li.runs=0;
+function gmx_fb_show_ad(b){var c=document,a=window.ISC_IS,d=c.getElementById(b);a.ads&&!a.adblock&&a.mobile_plus&&-1===c.cookie.indexOf("Bf2=0")?d&&(ISCGI.debug&&console.error("EXEC gmx_fb_show_ad(%s)!!!",b),c=c.createElement("div"),c.innerHTML='<iframe src="/t/assets/iframe/fb-ads1.html#'+b+"|"+d.getAttribute("data-plid")+'" frameborder="0" scrolling="no" width="100%" id="IF-'+b+'"></iframe>',d.appendChild(c)):(ISCGI.debug&&console.error("gmx_fb_show_ad(%s)!!!  ! I.ads || I.adblock || ! I.mobile_plus - cookie:%s",
+b,c.cookie.indexOf("Bf2=0"),a),d&&(d.id=d.id.replace("FB-",""),window.rungptgmx4()))};
+;ISC_IS.adblock=+function(a){var b=a.documentElement,c=a.createElement('div');c.appendChild(a.createTextNode('.'));c.className='pub_300x250 advertisement banner_ad ad ads text-ad';a=b.appendChild(c).offsetHeight?!0:!1;c.parentNode.removeChild(c);return!a?1:2}(document);</script><style>.async-hide {opacity:0 !important}</style><script>(function(c,b,d,e,f,a,g,h,k){b.className+=' '+d;a.start=1*new Date;a.end=g=function(){b.className=b.className.replace(RegExp(' ?'+d),'')};(c[e]=c[e]||[]).hide=a;setTimeout(function(){g();a.end=null},f);a.timeout=f})(window,document.documentElement,'async-hide','dataLayer',3E3,{'GTM-PP4D92G':!0});(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date;a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-715222-1',{siteSpeedSampleRate:5,cookieDomain:'breitbart.com',alwaysSendReferrer:!0});ga('set','anonymizeIp',!0);ga('set','transport','beacon');ga('set',{'dimension5':window.ISC_IS&&(ISC_IS.g)||'U','metric2':window.ISC_IS&&(ISC_IS.adblock)||3});ga('require','GTM-PP4D92G');ga('require','linkid');ga('require','displayfeatures');ga('send','pageview');ISC_IS.adblock=1===ISC_IS.adblock;</script>
+<script src="https://www.googletagservices.com/tag/js/gpt.js" async></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+<script src="https://connect.facebook.net/en_US/fbadnw55.js" async></script>
+<script src="https://securepubads.g.doubleclick.net/static/glade.js" async></script>
+
+	<noscript id="css-deferred-styles"><link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"></noscript><script defer>var _ldf=function(){var a=document.getElementById("css-deferred-styles"),b=document.createElement("div");b.innerHTML=a.textContent;document.body.appendChild(b);a.parentElement.removeChild(a)},raf=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;raf?raf(function(){window.setTimeout(_ldf,0)}):window.addEventListener("load",_ldf);
+</script>
+<!--
+	 jc generated in 3.649 seconds
+	121116 bytes batcached for 30s -->
+</head>
+<body class="tp-index home blog no-js">
+<div id="GlobalW">
+<script>document.body.className=ISCGI.bc;ISC_IS.t={"category":[],"pt":["front_page","home"]};var GMads=[[],[],[]],GMf=[[],[],[]],rungptgmx5,google_ad_client="ca-pub-9229289037503472",googletag=window.googletag||{cmd:[]};ISC_IS.ads&&!ISC_IS.adblock&&(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-9229289037503472",enable_page_level_ads:!0});
+ISC_IS.ads&&!ISC_IS.adblock&&googletag.cmd.push(function(){function g(c,r,b){function d(){n.getElementById(b)?(e&&console.warn("GAd: FOUND: %s %d  r:%s",b,g[b],c),GMf[c].push(r),h.display(b)):(e&&console.error("GAd: MISSED TOTALLY: %s %d  r:%s",b,g[b],c),a||g(c,r,b))}e&&console.error("EXEC: GAd(%s, %s, %s)",c,r,b);var a=n.getElementById("FootW");if(a)return d();7>g[b]++&&(e&&console.error("GAd: %s - %d - r:%s",b,g[b],c),setTimeout(d,(g[b]-1)*g[b]*100+1))}function a(c,a,b,d,p){e&&console.warn("iGa(%s, %s, %s, %s)",
+c,a,b,d);0===b&&(b=[[300,250]]);"undefined"===typeof p?GMads[c].push(h.defineSlot("/1003622/Breitbart."+a,b,d).addService(f())):GMads[c].push(h.defineSlot("/1003622/Breitbart."+a,b,d).defineSizeMapping(p).addService(f()))}var h=googletag,k=h.sizeMapping,f=h.pubads,n=document,t=n.cookie,v=window.location.search,e=window.ISCGI?window.ISCGI.debug:!1,m=k().addSize([468,300],[[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[480,320],[200,200],[125,125],[320,100],[336,280],[468,225],
+[300,250],[250,250],[468,60],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90],[300,1050]]).addSize([0,0],[[120,600],[160,600],[300,600],[320,50],[320,250],[300,100],[320,480],[200,200],[125,125],[320,100],[336,280],[300,250],[250,250],[300,60],[120,90],[240,400],[168,28],[120,20],[120,60],[160,90]]).build(),u=k().addSize([970,100],[[970,250],[930,180],[750,300],[728,300],[728,90],[980,120],[970,90],[970,66],[580,400],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],
+[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([728,100],[[750,300],[728,90],[728,300],[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).addSize([0,0],[[468,250],[475,245],[300,170],[125,125],[300,250],[468,60],[300,100],[300,60],[200,200],[300,50],[320,100],[320,50]]).build(),q=k().addSize([0,0],[[475,245],[320,250],[200,200],[300,50],[468,60],[468,100],[336,280],[300,250],[468,225],[480,320],[125,125]]).build(),l=k().addSize([0,
+0],[[300,600],[120,600],[160,600],[300,1050],[300,50],[216,54],[120,90],[300,100],[234,60],[120,240],[180,150],[240,400],[300,250],[200,200],[250,250],[250,360],[125,125],[120,90],[160,90]]).build();k=k().addSize([0,0],[[970,250],[750,300],[480,320],[930,180],[960,90],[580,400],[935,24],[468,225],[728,90],[970,90],[980,120],[750,200],[750,100],[468,250],[475,245],[300,170],[125,125],[468,60],[300,100],[200,200],[300,50],[320,100],[320,50]]).build();f().addEventListener("slotRenderEnded",function(c){var a=
+c.slot.getName(),b=c.slot.getSlotElementId(),d=n.getElementById(b),p=c.isBackfill?"IS_BACKFILL! ":"";c.isEmpty?(e&&console.error("BB: slotRenderEnded:  EMPTY!!!  %s  Slot: %s   DivID: %s",p,a,b),d&&(!ISC_IS.mobile_plus&&(-1<b.indexOf("-R2")||-1<b.indexOf("-R3"))?(d.innerHTML="",d.className+=" gmxpoll"):(d.className="H",setTimeout(function(){d&&d.parentNode&&d.parentNode.removeChild(d)},5E3)))):(c=c.size,e&&console.warn("GG: slotRenderEnded:  FOUND!   %s  Slot: %s   DivID: %s  Size: %s",p,a,b,c?c[0]+
+"x"+c[1]:""),d&&(d.style.display="block",d.className+=" padok",c&&(d.style.width=c[0]+"px",d.style["min-height"]=c[1]+15+"px")))});"undefined"!==typeof ISC_IS.t&&(ISC_IS.t.group=[ISC_IS.g],e&&console.error("A/B/C TESTGROUP: %s",ISC_IS.t.group[0]),ISC_IS.t.fb=[t&&-1<t.indexOf("Bf2=1")?"1":-1<t.indexOf("Bf2=0")?"0":"2"],Object.keys(ISC_IS.t).forEach(function(c){e&&console.warn('GTP().setTargeting("%s", %o)',c,ISC_IS.t[c]);f().setTargeting(c,ISC_IS.t[c])}));-1<v.indexOf("7LA6x")&&f().setLocation("70032,US");
+f().enableSingleRequest();f().enableVideoAds();f().collapseEmptyDivs(!0);f().disableInitialLoad();f().setCentering(!0,!0);h.enableServices();ISC_IS.home?ISC_IS.mobile?(a(0,"Mob.HP.Body2",0,"M-HP-B2",m),a(1,"Mob.HP.Body3",0,"M-HP-B3",m),a(1,"Mob.HP.Body4",0,"M-HP-B4",m),a(2,"Mob.HP.Header",[[320,100]],"HP-Header",u)):(a(0,"HP.Top.Leader",[[728,90]],"HP-Leader",k),a(0,"HP.Body1",[[468,225]],"D-HP-B1",q),a(1,"HP.Body2",[[468,225]],"D-HP-B2",q),a(0,"HP.Rail1",0,"HP-R1",l),a(0,"HP.Rail2",0,"HP-R2",l),
+a(1,"HP.Rail3",0,"HP-R3",l),a(1,"HP.Rail4",0,"HP-R4",l)):ISC_IS.mobile?(a(0,"Mob.ROS.Body1",0,"M-ROS-B1",m),a(0,"Mob.ROS.Body2",0,"M-ROS-B2",m),a(1,"Mob.ROS.Body3",0,"M-ROS-B3",m),a(1,"Mob.ROS.Body4",0,"M-ROS-B4",m),a(2,"Mob.ROS.Header",[[320,100]],"ROS-Header",u)):(a(0,"ROS.Top.Leader",[[728,90]],"ROS-Leader",k),a(0,"ROS.Body1",[[468,225]],"D-ROS-B1",q),a(1,"ROS.Body2",[[468,225]],"D-ROS-B2",q),a(0,"ROS.Rail1",0,"ROS-R1",l),a(0,"ROS.Rail2",0,"ROS-R2",l),a(1,"ROS.Rail3",0,"ROS-R3",l),a(1,"ROS.Rail4",
+0,"ROS-R4",l));GMads.forEach(function(c,a){e&&console.log("EXEC: Gloop(%s)",a,c);2!==a&&c.forEach(function(c,d){var b=c.getSlotElementId();n.getElementById(b)?(GMf[a].push(c),e&&console.warn("Gloop[%s]: FOUND!  GT.display(%s)  rr:%s",a,b,d),h.display(b)):(e&&console.error("Gloop[%s]: MISS!   GT.display(%s)  rr:%s",a,b,d),g[b]=0,g(a,c,b))})});e&&console.error("EXEC: GMf[0]");0<GMf[0].length?f().refresh(GMf[0],{changeCorrelator:!1}):e&&console.error("GMf[0]  SKIPPED!!!");window.rungptgmx5=function(){return function(){e&&
+console.error("EXEC rungptgmx5!!!");GMads.forEach(function(a,f){2===f&&(e&&console.error("EXEC: Gloop(%s) xx:%s",f,a),a.forEach(function(a,c){var b=a.getSlotElementId();n.getElementById(b)?(GMf[f].push(a),e&&console.error("Gloop[%s]: FOUND!  GT.display(%s)  rr:%s",f,b,c),h.display(b)):(e&&console.error("Gloop[%s]: MISS!   GT.display(%s)  rr:%s",f,b,c),g[b]=0,g(f,a,b))}))});e&&console.error("EXEC: GMf[2]");0<GMf[2].length?f().refresh(GMf[2],{changeCorrelator:!1}):e&&console.error("GMf[2]  SKIPPED!!!")}}();
+setTimeout(function(){e&&console.error("EXEC: GMf[1]");0<GMf[1].length?f().refresh(GMf[1],{changeCorrelator:!1}):e&&console.error("GMf[1]  SKIPPED!!!")},300)});window.rungptgmx4=function(){ISCGI.debug&&console.error("EXEC rungptgmx4!!!");"undefined"===window.rungptgmx4.ran||window.rungptgmx4.ran||(window.rungptgmx4.ran=!0,googletag.cmd.push(function(){ISCGI.debug&&console.error("EXEC rungptgmx4!!! INNER");setTimeout(window.rungptgmx5,500)}))};window.rungptgmx4.ran=!1;
+</script>
+
+<figure id="HP-Leader" class="a8d"></figure>	<header id="HeadW">
+		<div id="HWI">
+			<div class="Smobi menu-toggle" role="button" tabindex="-1"><span></span><span></span><span></span></div>
+			<a rel="index" class="logo" accesskey="1" href="http://www.breitbart.com/" title="Breitbart News Network">Breitbart: When Harry Met Meghan: Timeline of a Royal Romance</a>
+
+			<nav id="HNAV"><ul id="NavP" class="menu"><li class="category-big-government"><a href="http://www.breitbart.com/big-government/">Big Government</a></li><li class="category-big-journalism"><a href="http://www.breitbart.com/big-journalism/">Big Journalism</a></li><li class="category-big-hollywood"><a href="http://www.breitbart.com/big-hollywood/">Big Hollywood</a></li><li class="category-national-security"><a href="http://www.breitbart.com/national-security/">National Security</a></li><li class="category-tech"><a href="http://www.breitbart.com/tech/">Tech</a></li><li class="category-video"><a href="http://www.breitbart.com/video/">Video</a></li><li class="category-sports"><a href="http://www.breitbart.com/sports/">Sports</a></li><li class="post-type-archive-wire"><a href="/news/">The Wires</a></li></ul><ul id="NavS" class="menu"><li class="category-london"><a href="http://www.breitbart.com/london/">Breitbart London</a></li><li class="category-jerusalem"><a href="http://www.breitbart.com/jerusalem/">Breitbart Jerusalem</a></li><li class="category-texas"><a href="http://www.breitbart.com/texas/">Breitbart Texas</a></li><li class="category-california"><a href="http://www.breitbart.com/california/">Breitbart California</a></li><li class="page-people"><a href="http://www.breitbart.com/people/">People</a></li><li class="bbstorelink"><a title="The Breitbart Store" target="_blank" rel="nofollow" href="https://store.breitbart.com/"></a></li></ul></nav>
+
+			<ul id="HTlinks"><li><a href="http://www.breitbart.com/"></a></li><li><a rel="nofollow" href="/newsletter-signup/"></a></li></ul>
+			<ul id="HTuls"><li><a class="fb" href="https://www.facebook.com/Breitbart"></a></li><li><a class="tw" href="https://twitter.com/BreitbartNews"></a></li><li><a class="rs" href="http://feeds.feedburner.com/breitbart"></a></li></ul>
+
+			<form method="get" action="/search/"><label for="siq2"></label><input type="text" placeholder="SEARCH" name="s" id="siq2" value="" required></form>
+		</div>
+		<div id="mhead5">
+<figure id="FB-HP-Header" data-plid="2024181600932713|Mob.HP.Header" class="a8d"><script>gmx_fb_show_ad("FB-HP-Header");</script></figure></div>
+		<div id="HeadWB"></div>
+	</header>
+	<div id="ContentW">
+		<div id="ContainerW">
+			<div id="fb-root"></div>
+	<section id="MainW">
+		<h1 class="H">Breitbart: When Harry Met Meghan: Timeline of a Royal Romance</h1>
+	<div class="col8 top-article" data-tb-region="top">
+	<article class="has-thumb post">  <h2 class="title"><a href="/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/" title="Civil Rights Commissioner: Halt DACA Amnesty Talk Until Border Wall is Secured, Legal Immigration is Cut" class="thumbnail-url">Civil Rights Commissioner: Halt DACA Amnesty Talk Until Border Wall is Secured, Legal Immigration Cut</a></h2> <a href="/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/" title="Civil Rights Commissioner: Halt DACA Amnesty Talk Until Border Wall is Secured, Legal Immigration is Cut" class="tco"><img width="420" height="315" src="http://media.breitbart.com/media/2018/03/GettyImages-931525888-420x315.jpg" class=" wp-post-image" alt="border" title="GettyImages-931525888" /></a> <div class="excerpt"><p>Peter Kirsanow, a member of the U.S. Commission on Civil Rights, says discussion of an amnesty for illegal aliens should be halted until a wall is secured along the U.S.-Mexico border and major cuts to legal immigration are enacted. In a letter</p></div> <footer class="byline"><address data-aurl="/author/john-binder/" data-aname="JOHN BINDER"></address><a class="byC" href="/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/#disqus_thread" data-dsqi="8653070"></a></footer> </article></div>
+<div class="featured col4 endcol" data-tb-region="featured">
+	<article class="post">  <h2 class="title"><a href="/video/2018/05/18/rep-speier-dems-willing-to-trade-daca-for-trumps-wall-we-can-tear-it-down-in-a-couple-years/" title="Rep Speier: Dems Willing to Trade DACA for Trump Wall --- We Can Tear It Down in a &#039;Couple of Years&#039;" class="thumbnail-url">&#8230;Dem Rep: Trade DACA for Trump Wall&#8230; We Can Tear Down in ‘Couple of Years’&#8230;</a></h2> <footer class="byline"><address data-aurl="/author/pam-key/" data-aname="PAM KEY"></address><a class="byC" href="/video/2018/05/18/rep-speier-dems-willing-to-trade-daca-for-trumps-wall-we-can-tear-it-down-in-a-couple-years/#disqus_thread" data-dsqi="8654048"></a></footer> </article> <article class="post">  <h2 class="title"><a href="/big-government/2018/05/18/jeff-sessions-curtails-immigration-judges-authority-to-let-illegal-aliens-walk-free/" title="Jeff Sessions Curtails Immigration Judges&#039; Authority to Let Illegal Aliens Walk Free" class="thumbnail-url">Sessions Limits Judges’ Authority to Let Illegal Aliens Walk Free</a></h2> <footer class="byline"><address data-aurl="/author/ian-mason/" data-aname="IAN MASON"></address><a class="byC" href="/big-government/2018/05/18/jeff-sessions-curtails-immigration-judges-authority-to-let-illegal-aliens-walk-free/#disqus_thread" data-dsqi="8647784"></a></footer> </article> <article class="post">  <h2 class="title"><a href="/video/2018/05/18/maher-i-feel-trumps-remaking-us-into-his-own-ugly-image-weve-had-16-school-shootings-this-year/" title="Maher: I Feel Trump&#039;s &#039;Remaking&#039; US &#039;Into His Own, Ugly Image&#039; - We&#039;ve Had 16 School Shootings This Year" class="thumbnail-url">Maher: I Feel Trump’s ‘Remaking’ US ‘Into His Own, Ugly Image’</a></h2> <footer class="byline"><address data-aurl="/author/ian-hanchett/" data-aname="IAN HANCHETT"></address><a class="byC" href="/video/2018/05/18/maher-i-feel-trumps-remaking-us-into-his-own-ugly-image-weve-had-16-school-shootings-this-year/#disqus_thread" data-dsqi="8653934"></a></footer> </article> <article class="post">  <h2 class="title"><a href="/big-government/2018/05/18/cecile-richards-without-title-x-funding-women-wont-know-abortion-legal-available/" title="Cecile Richards: Without Title X Funding Women &#039;Won’t Know Abortion Legal or Available&#039;" class="thumbnail-url">Cecile Richards: Without Title X Funding Women ‘Won’t Know Abortion Legal or Available’</a></h2> <footer class="byline"><address data-aurl="/author/penny-starr/" data-aname="PENNY STARR"></address><a class="byC" href="/big-government/2018/05/18/cecile-richards-without-title-x-funding-women-wont-know-abortion-legal-available/#disqus_thread" data-dsqi="8652995"></a></footer> </article> <article class="post">  <h2 class="title"><a href="/big-government/2018/05/18/lessons-from-santa-fe-high-assault-weapon-bans-wont-work/" title="Hawkins-- Lessons from Santa Fe High: The Left&#039;s Favorite Gun Controls Will Not Stop School Shooters" class="thumbnail-url">The Left’s Favorite Gun Controls Will Not Stop School Shooters&#8230;</a></h2> <footer class="byline"><address data-aurl="/author/awr-hawkins/" data-aname="AWR HAWKINS"></address><a class="byC" href="/big-government/2018/05/18/lessons-from-santa-fe-high-assault-weapon-bans-wont-work/#disqus_thread" data-dsqi="8653760"></a></footer> </article> <article class="post">  <h2 class="title"><a href="/big-government/2018/05/18/hillary-clinton-santa-fe-school-shooting-should-inspire-soul-searching-gun-control/" title="Hillary Clinton: Santa Fe School Shooting Should Inspire &#039;Soul Searching,&#039; Gun Control" class="thumbnail-url">&#8230;Hillary: Santa Fe School Shooting Should Inspire ‘Soul Searching,’ Gun Control&#8230;</a></h2> <footer class="byline"><address data-aurl="/author/awr-hawkins/" data-aname="AWR HAWKINS"></address><a class="byC" href="/big-government/2018/05/18/hillary-clinton-santa-fe-school-shooting-should-inspire-soul-searching-gun-control/#disqus_thread" data-dsqi="8653187"></a></footer> </article></div>
+
+<figure id="FB-HP-Trend-1" data-plid="1917942898223251|X" class="a8d"><script>gmx_fb_show_ad("FB-HP-Trend-1");</script></figure><section id="BBTrendNow">
+	<h2><span>TRENDING</span> NOW</h2><div class="thrl"></div><div class="thrr"></div><ul id="BBTrendUL"><li><a href="http://www.breitbart.com/big-government/2018/05/18/kobach-a-huge-victory-for-states-rights-and-the-tenth-amendment/" data-n="0" title="Exclusive – Kobach: A Huge Victory for States’ Rights and the Tenth Amendment">Exclusive – Kobach: A Huge Victory for States’ Rights and Tenth Amendment</a><span><a class="byC" data-n="0" href="http://www.breitbart.com/big-government/2018/05/18/kobach-a-huge-victory-for-states-rights-and-the-tenth-amendment/#disqus_thread" data-dsqi="8652509"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/andrew-sullivan-trump-is-awful-but-the-left-has-destroyed-america/" data-n="1" title="Andrew Sullivan: Trump Is Awful, the Left Wants a Cultural-Marxist Dictatorship">Andrew Sullivan: Trump Awful, Left Wants a Cultural-Marxist Dictatorship</a><span><a class="byC" data-n="1" href="http://www.breitbart.com/big-government/2018/05/18/andrew-sullivan-trump-is-awful-but-the-left-has-destroyed-america/#disqus_thread" data-dsqi="8654201"></a></span></li><li><a href="http://www.breitbart.com/big-journalism/2018/05/18/report-fox-news-installs-meditation-room-with-muslim-prayer-rugs/" data-n="2" title="Report: Fox News Installs Meditation Room with Muslim Prayer Rugs">Report: Woke Fox News Installs Meditation Room, Muslim Prayer Rugs</a><span><a class="byC" data-n="2" href="http://www.breitbart.com/big-journalism/2018/05/18/report-fox-news-installs-meditation-room-with-muslim-prayer-rugs/#disqus_thread" data-dsqi="8651006"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/conservatives-campaign-to-draft-jim-jordan-for-speaker/" data-n="3">Conservatives Campaign to Draft Jim Jordan for Speaker</a><span><a class="byC" data-n="3" href="http://www.breitbart.com/big-government/2018/05/18/conservatives-campaign-to-draft-jim-jordan-for-speaker/#disqus_thread" data-dsqi="8653562"></a></span></li><li><a href="http://www.breitbart.com/california/2018/05/18/donald-trump-endorses-california-candidate-john-cox-in-battle-for-governors-seat/" data-n="4" title="Donald Trump Endorses California Candidate John Cox in Battle for Governor&#039;s Seat">Trump Endorses California Candidate John Cox in Battle for Governor’s Seat</a><span><a class="byC" data-n="4" href="http://www.breitbart.com/california/2018/05/18/donald-trump-endorses-california-candidate-john-cox-in-battle-for-governors-seat/#disqus_thread" data-dsqi="8653874"></a></span></li><li><a href="http://www.breitbart.com/national-security/2018/05/18/cuban-plane-carrying-104-passengers-crashes-havana/" data-n="5" title="Live Updates: Cuban Plane Carrying 105 Crashes After Takeoff in Havana, 3 Survivors"><span style="color:red">Cuban Plane Carrying 105 Crashes After Takeoff in Havana, 3 Survivors</span></a><span><a class="byC" data-n="5" href="http://www.breitbart.com/national-security/2018/05/18/cuban-plane-carrying-104-passengers-crashes-havana/#disqus_thread" data-dsqi="8651918"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/poll-half-of-jeff-denhams-hispanic-constituents-oppose-daca-amnesty/" data-n="6" title="Poll: Half of Jeff Denham&#039;s Hispanic Constituents Oppose DACA Amnesty">Poll: Half of Jeff Denham’s Hispanic Constituents Oppose DACA Amnesty</a><span><a class="byC" data-n="6" href="http://www.breitbart.com/big-government/2018/05/18/poll-half-of-jeff-denhams-hispanic-constituents-oppose-daca-amnesty/#disqus_thread" data-dsqi="8652767"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/great-again-fewer-americans-putting-off-marriage-children-or-college-because-of-money-troubles/" data-n="7" title="Great Again: Fewer Americans Putting Off Marriage, Children, College Because of Money Troubles">Great Again: Fewer Americans Putting Off Marriage, Children, Because</a><span><a class="byC" data-n="7" href="http://www.breitbart.com/big-government/2018/05/18/great-again-fewer-americans-putting-off-marriage-children-or-college-because-of-money-troubles/#disqus_thread" data-dsqi="8651192"></a></span></li><li><a href="http://www.breitbart.com/tech/2018/05/18/masters-of-the-universe-backlash-founder-of-messaging-service-kik-creates-anti-facebook-alliance/" data-n="8" title="Masters of the Universe Backlash: Founder of Messaging Service Kik Creates &#039;Anti-Facebook Alliance&#039;">Masters of the Universe Backlash: ‘Anti-Facebook Alliance&#8217; Formed</a><span><a class="byC" data-n="8" href="http://www.breitbart.com/tech/2018/05/18/masters-of-the-universe-backlash-founder-of-messaging-service-kik-creates-anti-facebook-alliance/#disqus_thread" data-dsqi="8650376"></a></span></li><li><a href="http://www.breitbart.com/tech/2018/05/18/university-of-michigans-diversity-office-has-an-11-million-payroll/" data-n="9" title="University of Michigan&#039;s Diversity Office Has an $11 Million Payroll">U of Michigan’s Diversity Office Has an $11 Million Payroll</a><span><a class="byC" data-n="9" href="http://www.breitbart.com/tech/2018/05/18/university-of-michigans-diversity-office-has-an-11-million-payroll/#disqus_thread" data-dsqi="8648408"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/democratic-national-committee-seeks-trump-administrations-help-to-sue-russia/" data-n="10" title="Democratic National Committee Seeks Trump Admin&#039;s Help Suing Russia">DNC Seeks Trump Admin’s Help Suing Russia</a><span><a class="byC" data-n="10" href="http://www.breitbart.com/big-government/2018/05/18/democratic-national-committee-seeks-trump-administrations-help-to-sue-russia/#disqus_thread" data-dsqi="8653403"></a></span></li><li><a href="http://www.breitbart.com/big-government/2018/05/18/two-pacs-battle-with-trump-billboards-once-again/" data-n="11">Dueling Billboards Thank Trump, Call for Impeachment in West Palm Beach</a><span><a class="byC" data-n="11" href="http://www.breitbart.com/big-government/2018/05/18/two-pacs-battle-with-trump-billboards-once-again/#disqus_thread" data-dsqi="8652893"></a></span></li></ul>	<br class="C VH">
+</section>
+
+<figure id="D-HP-B1" class="a8d"></figure><section id="gmxcanvas"> <h2>TOP STORIES</h2> <section class="grid-block" style="height:1320px;" id="grid-block-0"> <h3 class="H">Canvas 0</h3> <article data-height="20" class="aw-3 ah-20 acol-1 arow-1 has-thumb"><a href="/texas/2018/05/18/reports-active-shooter-in-texas-high-school/" class="tco"><img src="http://media.breitbart.com/media/2018/05/santa-fe-shooting-school-getty-640x479.jpg" alt="10 Dead After Shots Fired in Texas High School – Suspect Identified" title="10 Dead After Shots Fired in Texas High School – Suspect Identified"></a><footer class="byline"><h2><a href="/texas/2018/05/18/reports-active-shooter-in-texas-high-school/"><span style="color:red">10 Killed, 10 Wounded After Shots Fired in Texas High School</span><br><br>&#8216;explosive devices found&#8217;<br><br>Suspect in Custody Identified</a></h2> <a class="byC" href="/texas/2018/05/18/reports-active-shooter-in-texas-high-school/#disqus_thread" data-dsqi="8650118"></a> </footer></article></section> <figure id="D-HP-B1" class="a8d"></figure> <section class="grid-block" style="height:1515px;" id="grid-block-1"> <h3 class="H">Canvas 1</h3> <article data-height="6" class="aw-1 ah-6 acol-1 arow-1 has-thumb"><a href="/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/" class="tco"><img src="http://media.breitbart.com/media/2018/05/FirstLadies-200x150.jpg" alt="Jennifer Aniston to Play Lesbian President in Netflix Comedy" title="Jennifer Aniston to Play Lesbian President in Netflix Comedy"></a><footer class="byline"><h2><a href="/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/">Jennifer Aniston to Play Lesbian President in Netflix Comedy</a></h2> <a class="byC" href="/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/#disqus_thread" data-dsqi="8653481"></a> </footer></article><article data-height="12" class="aw-2 ah-12 acol-2 arow-1 has-thumb"><a href="/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/" class="tco"><img src="http://media.breitbart.com/media/2018/05/RosieJudd1-420x315.jpg" alt="Celebs Blame Republicans for Santa Fe School Shooting: ‘Go F**k Yourselves’" title="Celebs Blame Republicans for Santa Fe School Shooting: ‘Go F**k Yourselves’"></a><footer class="byline"><h2><a href="/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/">Celebs Blame Republicans for Santa Fe School Shooting: ‘Go F**k Yourselves’</a></h2> <a class="byC" href="/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/#disqus_thread" data-dsqi="8650922"></a> </footer></article><article data-height="3" class="aw-1 ah-3 acol-1 arow-7 "><footer class="byline"><h2><a href="/big-hollywood/2018/05/18/seth-myers-writer-racist-roseanne-muslim-neighbor-episode-was-poison/">Seth Myers Writer: ‘Racist’ ‘Roseanne’ Muslim Neighbor Episode was ‘Poison’</a></h2> <a class="byC" href="/big-hollywood/2018/05/18/seth-myers-writer-racist-roseanne-muslim-neighbor-episode-was-poison/#disqus_thread" data-dsqi="8651840"></a> </footer></article><article data-height="8" class="aw-1 ah-8 acol-1 arow-10 black has-thumb"><a href="/video/2018/05/18/rob-reiner/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Rob-Reiner-200x150.jpg" class="qazy" alt="Rob Reiner Warns of &#8216;Destruction of Democracy&#8217; &#8212; Says MSNBC &#8216;Under Attack, Criticizes Fox News, Breitbart for Being &#8216;Aligned&#8217; with Trump" data-qazy="1"></a><footer class="byline"><h2><a href="/video/2018/05/18/rob-reiner/">Rob Reiner Sez MSNBC ‘Under Attack&#8230; Fox News, Breitbart Part of &#8216;State Run Television&#8217;</a></h2> <a class="byC" href="/video/2018/05/18/rob-reiner/#disqus_thread" data-dsqi="8650865"></a> </footer></article><article data-height="11" class="aw-2 ah-11 acol-2 arow-13 has-thumb"><a href="/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/" class="tco"><img src="http://media.breitbart.com/media/2018/05/jayzMeekMill1-420x315.jpg" class="qazy" alt="Jay-Z Convinces Meek Mill to Cancel Trump Prison Reform Meeting" data-qazy="1"></a><footer class="byline"><h2><a href="/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/">Jay-Z Convinces Meek Mill to Cancel Trump Prison Reform Meeting</a></h2> <a class="byC" href="/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/#disqus_thread" data-dsqi="8650961"></a> </footer></article><article data-height="6" class="aw-1 ah-6 acol-1 arow-18 has-thumb"><a href="/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/" class="tco"><img src="http://media.breitbart.com/media/2018/02/HandlerBloodHands-200x150.jpg" class="qazy" alt="Danan: Chelsea Handler&#8217;s Gaza Tweets Full of Anti-Israel Fake News" data-qazy="1"></a><footer class="byline"><h2><a href="/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/">Danan: Chelsea Handler’s Gaza Tweets Full of Anti-Israel Fake News</a></h2> <a class="byC" href="/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/#disqus_thread" data-dsqi="8644526"></a> </footer></article></section> <figure id="M-HP-B2" class="a8d"></figure> <section class="grid-block" style="height:1580px;" id="grid-block-2"> <h3 class="H">Canvas 2</h3> <article data-height="12" class="aw-2 ah-12 acol-1 arow-1 has-thumb"><a href="/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/" class="tco"><img src="http://media.breitbart.com/media/2018/05/AP_18138571491171-420x315.jpg" class="qazy" alt="Donald Trump: &#8216;May God Be with the Victims&#8217; of Texas School Shooting" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/">Donald Trump: ‘May God Be with the Victims’ of Texas School Shooting&#8230;</a></h2><address class="abyl" data-aurl="/author/charlie-spiering/" data-aname="CHARLIE SPIERING"></address> <a class="byC" href="/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/#disqus_thread" data-dsqi="8650886"></a> </footer></article><article data-height="11" class="aw-2 ah-11 acol-1 arow-13 has-thumb"><a href="/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/" class="tco"><img src="http://media.breitbart.com/media/2018/05/wi/ap/18/cb676e_aptopix-school-shooting-texas-63417-man-hugs-woman-alamo-gym-parents-wait-e1526667592489-420x315.jpg" class="qazy" alt="Santa Fe High School Weapons Policy: Firearms, Ammunition Prohibited" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/">&#8230;School Weapons Policy: Firearms, Ammunition Prohibited</a></h2> <a class="byC" href="/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/#disqus_thread" data-dsqi="8651594"></a> </footer></article><article data-height="3" class="aw-1 ah-3 acol-3 arow-1 "><footer class="byline"><h2><a href="/big-government/2018/05/18/tx-school-shooter-used-revolver-shotgun/">TX School Shooter Used a Revolver and a Shotgun&#8230;</a></h2><address class="abyl" data-aurl="/author/awr-hawkins/" data-aname="AWR HAWKINS"></address> <a class="byC" href="/big-government/2018/05/18/tx-school-shooter-used-revolver-shotgun/#disqus_thread" data-dsqi="8652698"></a> </footer></article><article data-height="7" class="aw-1 ah-7 acol-3 arow-4 has-thumb"><a href="/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/" class="tco"><img src="http://media.breitbart.com/media/2017/01/AP_16314070470636-e1526675350654-200x150.jpg" class="qazy" alt="Sen. Rand Paul: It&#8217;s Time to Say &#8216;We&#8217;re Not Going to Leave Our Kids Defenseless&#8217;" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/">&#8230;Rand Takes Stand: Time to Say ‘We’re Not Going to Leave Our Kids Defenseless’&#8230;</a></h2><address class="abyl" data-aurl="/author/awr-hawkins/" data-aname="AWR HAWKINS"></address> <a class="byC" href="/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/#disqus_thread" data-dsqi="8652200"></a> </footer></article><article data-height="7" class="aw-1 ah-7 acol-3 arow-11 has-thumb"><a href="/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/" class="tco"><img src="http://media.breitbart.com/media/2018/03/GettyImages-915924244-e1520399873265-200x150.jpg" class="qazy" alt="Rand: Shooters Aren&#8217;t Shooting Up the Sheriff&#8217;s Office &#8211; They Go &#8216;Where There Is No Self-Defense&#8217;" data-qazy="1"></a><footer class="byline"><h2><a href="/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/">&#8230;Shooters Aren’t Shooting Up the Sheriff’s Office&#8230;<br><Br>&#8230;They Go ‘Where There Is No Self-Defense’&#8230;</a></h2><address class="abyl" data-aurl="/author/ian-hanchett/" data-aname="IAN HANCHETT"></address> <a class="byC" href="/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/#disqus_thread" data-dsqi="8652365"></a> </footer></article><article data-height="7" class="aw-1 ah-7 acol-3 arow-18 has-thumb"><a href="/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/" class="tco"><img src="http://media.breitbart.com/media/2016/06/Texas-AG-Ken-Paxton-Official-Photo-200x150.jpg" class="qazy" alt="Texas AG: &#8216;Disarming Law-Abiding Citizens Doesn&#8217;t Actually Protect Our Children&#8217;" data-qazy="1"></a><footer class="byline"><h2><a href="/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/">&#8230;Texas AG: ‘Disarming Law-Abiding Citizens Doesn’t Actually Protect Our Children’</a></h2> <a class="byC" href="/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/#disqus_thread" data-dsqi="8651822"></a> </footer></article></section> <figure id="M-HP-B3" class="a8d"></figure> <section class="grid-block" style="height:800px;" id="grid-block-3"> <h3 class="H">Canvas 3</h3> <article data-height="6" class="aw-1 ah-6 acol-3 arow-7 has-thumb"><a href="/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/" class="tco"><img src="http://media.breitbart.com/media/2018/02/Nicolle-Wallace-200x150.jpg" class="qazy" alt="MSNBC&#8217;s Nicolle Wallace: &#8216;We Have Now Let Down the Parkland Students&#8217;" data-qazy="1"></a><footer class="byline"><h2><a href="/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/">MSNBC’s Nicolle Wallace: ‘We Have Now Let Down the Parkland Students’</a></h2> <a class="byC" href="/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/#disqus_thread" data-dsqi="8653103"></a> </footer></article><article data-height="6" class="aw-1 ah-6 acol-3 arow-1 has-thumb"><a href="/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Kirstjen-Nielsen-200x150.jpg" class="qazy" alt="Nielsen: Democrats Owe Trump Apology for Distorting MS-13 Remarks" data-qazy="1"></a><footer class="byline"><h2><a href="/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/">Nielsen: Democrats Owe Trump Apology for Distorting MS-13 Remarks</a></h2> <a class="byC" href="/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/#disqus_thread" data-dsqi="8651372"></a> </footer></article><article data-height="12" class="aw-2 ah-12 acol-1 arow-1 has-thumb"><a href="/big-government/2018/05/18/barletta-american-people-have-run-out-patience-lawmakers-pushing-amnesty/" class="tco"><img src="http://media.breitbart.com/media/2018/05/anti-amnesty-anti-dream-act-protest-getty-420x315.jpg" class="qazy" alt="Exclusive — Lou Barletta: ‘American People Have Run Out of Patience&#8217; with Lawmakers Pushing for Amnesty" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/barletta-american-people-have-run-out-patience-lawmakers-pushing-amnesty/">Exclusive — Barletta: Americans &#8216;Out of Patience’ with Lawmakers Pushing Amnesty</a></h2> <a class="byC" href="/big-government/2018/05/18/barletta-american-people-have-run-out-patience-lawmakers-pushing-amnesty/#disqus_thread" data-dsqi="8652530"></a> </footer></article></section> <figure id="D-HP-B2" class="a8d"></figure><figure id="M-HP-B4" class="a8d"></figure> <section class="grid-block" style="height:930px;" id="grid-block-4"> <h3 class="H">Canvas 4</h3> <article data-height="14" class="aw-3 ah-14 acol-1 arow-1 has-thumb"><a href="/big-government/2018/05/18/secret-service-investigating-shooting-at-trump-doral-gofl-resort-after-man-shoots-up-lobby/" class="tco"><img src="http://media.breitbart.com/media/2018/05/AP_18138405662050-640x480.jpg" class="qazy" alt="Police: Florida Man Opened Fire, Ranted About POTUS at Trump Doral Golf Resort" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/secret-service-investigating-shooting-at-trump-doral-gofl-resort-after-man-shoots-up-lobby/">Police: Florida Man Opened Fire, Ranted About POTUS at Trump Doral Golf Resort</a></h2> <a class="byC" href="/big-government/2018/05/18/secret-service-investigating-shooting-at-trump-doral-gofl-resort-after-man-shoots-up-lobby/#disqus_thread" data-dsqi="8649839"></a> </footer></article></section> <section class="grid-block" style="height:735px;" id="grid-block-5"> <h3 class="H">Canvas 5</h3> <article data-height="11" class="aw-2 ah-11 acol-1 arow-1 has-thumb"><a href="/london/2018/05/18/buses-with-270-migrants-waved-through-bosnia-amid-chaos/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Screen-Shot-2018-05-18-at-17.57.15-420x315.png" class="qazy" alt="PICS: Buses With 270 Migrants Waved Through Bosnia Amid Chaos" data-qazy="1"></a><footer class="byline"><h2><a href="/london/2018/05/18/buses-with-270-migrants-waved-through-bosnia-amid-chaos/">PICS: Buses With 270 Migrants Waved Through Bosnia Amid Chaos</a></h2><address class="abyl" data-aurl="/author/breitbart-london-news/" data-aname="BREITBART LONDON"></address> <a class="byC" href="/london/2018/05/18/buses-with-270-migrants-waved-through-bosnia-amid-chaos/#disqus_thread" data-dsqi="8651663"></a> </footer></article><article data-height="6" class="aw-1 ah-6 acol-3 arow-1 has-thumb"><a href="/national-security/2018/05/18/north-korea-ramps-up-campaign-against-john-bolton/" class="tco"><img src="http://media.breitbart.com/media/2018/04/wi/ap/12/lp610a_us-north-korea-64620-john-bolton-in-2018-photo-national-security-adviser-e1526666149202-200x150.jpg" class="qazy" alt="North Korea Ramps Up Campaign Against &#8216;Racist&#8217; John Bolton" data-qazy="1"></a><footer class="byline"><h2><a href="/national-security/2018/05/18/north-korea-ramps-up-campaign-against-john-bolton/">NKorea Ramps Up Campaign Against ‘Racist’ John Bolton</a></h2> <a class="byC" href="/national-security/2018/05/18/north-korea-ramps-up-campaign-against-john-bolton/#disqus_thread" data-dsqi="8650400"></a> </footer></article><article data-height="5" class="aw-1 ah-5 acol-3 arow-7 has-thumb"><a href="/national-security/2018/05/18/brazil-charges-11-people-with-trying-to-establish-islamic-state-cell/" class="tco"><img src="http://media.breitbart.com/media/2018/03/wi/afp/18/352p5b_brazilian-army-soldiers-patrol-permanent-operation-vila-kennedy-favela-e1526669252544-200x150.jpg" class="qazy" alt="Brazil Charges 11 People with Trying to Establish Islamic State Cell" data-qazy="1"></a><footer class="byline"><h2><a href="/national-security/2018/05/18/brazil-charges-11-people-with-trying-to-establish-islamic-state-cell/">Brazil Charges 11 People with Trying to Establish Islamic State Cell</a></h2> <a class="byC" href="/national-security/2018/05/18/brazil-charges-11-people-with-trying-to-establish-islamic-state-cell/#disqus_thread" data-dsqi="8650904"></a> </footer></article></section> <section class="grid-block" style="height:865px;" id="grid-block-6"> <h3 class="H">Canvas 6</h3> <article data-height="11" class="aw-2 ah-11 acol-1 arow-1 has-thumb"><a href="/big-journalism/2018/05/18/glenn-beck-endorses-donald-trump-puts-on-maga-hat/" class="tco"><img src="http://media.breitbart.com/media/2018/05/glenn-beck-maga-hat-420x315.jpg" class="qazy" alt="Glenn Beck Endorses Donald Trump, Puts on MAGA Hat" data-qazy="1"></a><footer class="byline"><h2><a href="/big-journalism/2018/05/18/glenn-beck-endorses-donald-trump-puts-on-maga-hat/">Glenn Beck Endorses Trump, Puts on MAGA Hat</a></h2> <a class="byC" href="/big-journalism/2018/05/18/glenn-beck-endorses-donald-trump-puts-on-maga-hat/#disqus_thread" data-dsqi="8652836"></a> </footer></article><article data-height="3" class="aw-1 ah-3 acol-3 arow-1 "><footer class="byline"><h2><a href="/big-government/2018/05/18/trump-kushner-team-up-van-jones-prison-reform/">Kushner Teams Up with Van Jones on Prisons…</a></h2> <a class="byC" href="/big-government/2018/05/18/trump-kushner-team-up-van-jones-prison-reform/#disqus_thread" data-dsqi="8651759"></a> </footer></article><article data-height="10" class="aw-1 ah-10 acol-3 arow-4 black has-thumb"><a href="/big-government/2018/05/18/4k-convicts-would-be-set-free-by-koch-brothers-backed-prison-reform-plan/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Prison-reform-Brian-van-der-BrugLos-Angeles-Times-via-Getty-Images--200x150.jpg" class="qazy" alt="4K Convicts Would Be Set Free by Koch Brothers-Backed Prison Reform Plan" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/4k-convicts-would-be-set-free-by-koch-brothers-backed-prison-reform-plan/">&#8230;4K Convicts Would Be Set Free by Koch Brothers-Backed Prison Reform Plan</a></h2><address class="abyl" data-aurl="/author/john-binder/" data-aname="JOHN BINDER"></address> <a class="byC" href="/big-government/2018/05/18/4k-convicts-would-be-set-free-by-koch-brothers-backed-prison-reform-plan/#disqus_thread" data-dsqi="8652575"></a> </footer></article></section> <section class="grid-block" style="height:800px;" id="grid-block-7"> <h3 class="H">Canvas 7</h3> <article data-height="6" class="aw-1 ah-6 acol-3 arow-7 has-thumb"><a href="/big-government/2018/05/18/five-state-ice-sweep-nabs-78-illegals-in-the-midwest/" class="tco"><img src="http://media.breitbart.com/media/2018/04/AP_17044803991198-200x150.png" class="qazy" alt="Report: Five-State ICE Sweep Nabs 78 Illegals in the Midwest" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/five-state-ice-sweep-nabs-78-illegals-in-the-midwest/">Report: Five-State ICE Sweep Nabs 78 Illegals in the Midwest</a></h2> <a class="byC" href="/big-government/2018/05/18/five-state-ice-sweep-nabs-78-illegals-in-the-midwest/#disqus_thread" data-dsqi="8650394"></a> </footer></article><article data-height="12" class="aw-2 ah-12 acol-1 arow-1 has-thumb"><a href="/immigration/2018/05/17/ryan-ally-spending-millions-to-aid-gop-amnesty-discharge-reps/" class="tco"><img src="http://media.breitbart.com/media/2018/05/GettyImages-944719532-420x315.jpg" class="qazy" alt="Ryan&#8217;s Super PAC Gives Millions to GOP&#8217;s Amnesty Discharge Signers" data-qazy="1"></a><footer class="byline"><h2><a href="/immigration/2018/05/17/ryan-ally-spending-millions-to-aid-gop-amnesty-discharge-reps/">Ryan’s Super PAC Gives Millions to GOP’s Amnesty Discharge Signers</a></h2><address class="abyl" data-aurl="/author/nmunro/" data-aname="NEIL MUNRO"></address> <a class="byC" href="/immigration/2018/05/17/ryan-ally-spending-millions-to-aid-gop-amnesty-discharge-reps/#disqus_thread" data-dsqi="8647256"></a> </footer></article><article data-height="6" class="aw-1 ah-6 acol-3 arow-1 has-thumb"><a href="/texas/2018/05/18/fbi-most-wanted-cartel-leader-arrested-in-mexican-border-state/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Carlos-Arturo-Quintana-el-80-200x150.jpg" class="qazy" alt="FBI ‘Most Wanted’ Cartel Leader Arrested in Mexican Border State" data-qazy="1"></a><footer class="byline"><h2><a href="/texas/2018/05/18/fbi-most-wanted-cartel-leader-arrested-in-mexican-border-state/">FBI ‘Most Wanted’ Cartel Leader Arrested in Mexican Border State</a></h2> <a class="byC" href="/texas/2018/05/18/fbi-most-wanted-cartel-leader-arrested-in-mexican-border-state/#disqus_thread" data-dsqi="8651741"></a> </footer></article></section> <section class="grid-block" style="height:930px;" id="grid-block-8"> <h3 class="H">Canvas 8</h3> <article data-height="14" class="aw-3 ah-14 acol-1 arow-1 has-thumb"><a href="/sports/2018/05/18/wnba-teams-up-with-planned-parenthood-for-womens-empowerment-campaign/" class="tco"><img src="http://media.breitbart.com/media/2018/05/AP-PP-640x480.png" class="qazy" alt="WNBA Teams Up with Planned Parenthood for &#8216;Women&#8217;s Empowerment&#8217; Campaign" data-qazy="1"></a><footer class="byline"><h2><a href="/sports/2018/05/18/wnba-teams-up-with-planned-parenthood-for-womens-empowerment-campaign/">WNBA Teams Up with Planned Parenthood for ‘Women’s Empowerment’ Campaign</a></h2> <a class="byC" href="/sports/2018/05/18/wnba-teams-up-with-planned-parenthood-for-womens-empowerment-campaign/#disqus_thread" data-dsqi="8650760"></a> </footer></article></section> <section class="grid-block" style="height:930px;" id="grid-block-9"> <h3 class="H">Canvas 9</h3> <article data-height="4" class="aw-1 ah-4 acol-3 arow-1 "><footer class="byline"><h2><a href="/big-government/2018/05/18/really-bad-stuff-donald-trump-raises-alarm-over-unnamed-spy-in-his-presidential-campaign/">‘Really Bad Stuff!’ Trump Raises Alarm Over Spy in Presidential Campaign</a></h2> <a class="byC" href="/big-government/2018/05/18/really-bad-stuff-donald-trump-raises-alarm-over-unnamed-spy-in-his-presidential-campaign/#disqus_thread" data-dsqi="8649464"></a> </footer></article><article data-height="4" class="aw-1 ah-4 acol-3 arow-11 "><footer class="byline"><h2><a href="/big-government/2018/05/18/donald-trump-surprises-robert-wilkie-by-nominating-him-as-for-secretary-of-veterans-affairs/">Trump Surprises Robert Wilkie By Nominating Him as Sec. of Veterans Affairs</a></h2> <a class="byC" href="/big-government/2018/05/18/donald-trump-surprises-robert-wilkie-by-nominating-him-as-for-secretary-of-veterans-affairs/#disqus_thread" data-dsqi="8651246"></a> </footer></article><article data-height="6" class="aw-1 ah-6 acol-3 arow-5 has-thumb"><a href="/big-government/2018/05/18/trump-taunts-fake-news-ms-13-animals-controversy/" class="tco"><img src="http://media.breitbart.com/media/2018/02/20170505_HPR_Guandique-12_0-ICE-MS-13-200x150.jpg" class="qazy" alt="Donald Trump Taunts ‘Fake News’ After MS-13 &#8216;Animals&#8217; Controversy" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/trump-taunts-fake-news-ms-13-animals-controversy/">POTUS Taunts ‘Fake News’ After MS-13 ‘Animals’ Controversy</a></h2> <a class="byC" href="/big-government/2018/05/18/trump-taunts-fake-news-ms-13-animals-controversy/#disqus_thread" data-dsqi="8650547"></a> </footer></article><article data-height="11" class="aw-2 ah-11 acol-1 arow-1 has-thumb"><a href="/big-journalism/2018/05/18/cnns-ana-navarro-called-trump-an-animal/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Ana-Navarro-420x315.png" class="qazy" alt="CNN&#8217;s Ana Navarro Called Donald Trump an &#8216;Animal&#8217;" data-qazy="1"></a><footer class="byline"><h2><a href="/big-journalism/2018/05/18/cnns-ana-navarro-called-trump-an-animal/">Busted: CNN’s Ana Navarro Called Trump ‘Animal’</a></h2><address class="abyl" data-aurl="/author/john-nolte/" data-aname="JOHN NOLTE"></address> <a class="byC" href="/big-journalism/2018/05/18/cnns-ana-navarro-called-trump-an-animal/#disqus_thread" data-dsqi="8650181"></a> </footer></article></section> <section class="grid-block" style="height:800px;" id="grid-block-10"> <h3 class="H">Canvas 10</h3> <article data-height="3" class="aw-1 ah-3 acol-3 arow-9 "><footer class="byline"><h2><a href="/london/2018/05/18/syrian-migrant-charged-in-anti-semitic-attack-in-berlin/">Syrian Migrant Charged in Anti-Semitic Attack in Berlin</a></h2> <a class="byC" href="/london/2018/05/18/syrian-migrant-charged-in-anti-semitic-attack-in-berlin/#disqus_thread" data-dsqi="8651609"></a> </footer></article><article data-height="8" class="aw-1 ah-8 acol-3 arow-1 black has-thumb"><a href="/national-security/2018/05/18/state-department-north-korea-not-getting-u-s-tax-dollars-rebuild/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Trump-wait-hands-ap-200x150.jpg" class="qazy" alt="State Department: North Korea Not Getting U.S. Tax Dollars to Rebuild" data-qazy="1"></a><footer class="byline"><h2><a href="/national-security/2018/05/18/state-department-north-korea-not-getting-u-s-tax-dollars-rebuild/">State Department: North Korea Not Getting U.S. Tax Dollars to Rebuild</a></h2><address class="abyl" data-aurl="/author/frances-martel/" data-aname="FRANCES MARTEL"></address> <a class="byC" href="/national-security/2018/05/18/state-department-north-korea-not-getting-u-s-tax-dollars-rebuild/#disqus_thread" data-dsqi="8650022"></a> </footer></article><article data-height="12" class="aw-2 ah-12 acol-1 arow-1 has-thumb"><a href="/big-government/2018/05/18/marine-raises-thousands-help-world-war-ii-veteran/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Guido-Filippone-Mike-Gazella-WWII-veteran-gofundme-420x315.jpg" class="qazy" alt="Marine Raises Thousands to Help World War II Veteran" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/marine-raises-thousands-help-world-war-ii-veteran/">Marine Raises Thousands to Help World War II Veteran</a></h2> <a class="byC" href="/big-government/2018/05/18/marine-raises-thousands-help-world-war-ii-veteran/#disqus_thread" data-dsqi="8650754"></a> </footer></article></section> <section class="grid-block" style="height:800px;" id="grid-block-11"> <h3 class="H">Canvas 11</h3> <article data-height="6" class="aw-1 ah-6 acol-1 arow-1 has-thumb"><a href="/big-government/2018/05/18/donald-trump-reveals-what-he-hears-in-the-yanny-vs-laurel-audio-clip/" class="tco"><img src="http://media.breitbart.com/media/2018/05/donald-trump-nra-may-4-2018-getty-200x150.jpg" class="qazy" alt="Donald Trump Reveals What He Hears in the Yanny vs. Laurel Audio Clip" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/18/donald-trump-reveals-what-he-hears-in-the-yanny-vs-laurel-audio-clip/">Donald Trump Reveals What He Hears in the Yanny vs. Laurel Audio Clip</a></h2> <a class="byC" href="/big-government/2018/05/18/donald-trump-reveals-what-he-hears-in-the-yanny-vs-laurel-audio-clip/#disqus_thread" data-dsqi="8649563"></a> </footer></article><article data-height="3" class="aw-1 ah-3 acol-1 arow-7 "><footer class="byline"><h2><a href="/big-government/2018/05/17/behind-the-mnuchin-vs-navarro-battle-a-difference-over-china-strategy/">Behind the Mnuchin vs. Navarro Battle, A Difference Over China Strategy</a></h2><address class="abyl" data-aurl="/author/john-carney/" data-aname="JOHN CARNEY"></address> <a class="byC" href="/big-government/2018/05/17/behind-the-mnuchin-vs-navarro-battle-a-difference-over-china-strategy/#disqus_thread" data-dsqi="8647220"></a> </footer></article><article data-height="12" class="aw-2 ah-12 acol-2 arow-1 has-thumb"><a href="/big-government/2018/05/17/trump-donates-first-quarter-salary-to-department-of-veterans-affairs/" class="tco"><img src="http://media.breitbart.com/media/2018/05/Trump-Dept.-of-Veterans-Affairs-Evan-Vucci-AP-420x315.png" class="qazy" alt="Trump Donates First Quarter Salary to Department of Veterans Affairs" data-qazy="1"></a><footer class="byline"><h2><a href="/big-government/2018/05/17/trump-donates-first-quarter-salary-to-department-of-veterans-affairs/">Trump Donates First Quarter Salary to Department of Veterans Affairs</a></h2> <a class="byC" href="/big-government/2018/05/17/trump-donates-first-quarter-salary-to-department-of-veterans-affairs/#disqus_thread" data-dsqi="8647685"></a> </footer></article><article data-height="3" class="aw-1 ah-3 acol-1 arow-10 "><footer class="byline"><h2><a href="/big-government/2018/05/17/doctors-rip-claim-abortion-needed-for-mental-health/">Doctors Rip Claim Abortions Needed for ‘Mental Health’</a></h2><address class="abyl" data-aurl="/author/dr-susan-berry/" data-aname="DR. SUSAN BERRY"></address> <a class="byC" href="/big-government/2018/05/17/doctors-rip-claim-abortion-needed-for-mental-health/#disqus_thread" data-dsqi="8645069"></a> </footer></article></section> <section class="grid-block" style="height:1125px;" id="grid-block-12"> <h3 class="H">Canvas 12</h3> <article data-height="12" class="aw-2 ah-12 acol-2 arow-5 has-thumb"><a href="/jerusalem/2018/05/18/associated-press-labels-hamas-border-assault-as-mass-killing-of-palestinians-by-israel/" class="tco"><img src="http://media.breitbart.com/media/2018/04/israeli-border-2-420x315.png" class="qazy" alt="Associated Press Labels Ha
+ParseData::
+Version: 5
+Status: success(1,0)
+Title: Breitbart News Network
+Outlinks: 100
+  outlink: toUrl: http://www.breitbart.com/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/search/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/opensearch.xml anchor: 
+  outlink: toUrl: http://www.breitbart.com/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/ anchor: Big Government
+  outlink: toUrl: http://www.breitbart.com/big-journalism/ anchor: Big Journalism
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/ anchor: Big Hollywood
+  outlink: toUrl: http://www.breitbart.com/national-security/ anchor: National Security
+  outlink: toUrl: http://www.breitbart.com/tech/ anchor: Tech
+  outlink: toUrl: http://www.breitbart.com/video/ anchor: Video
+  outlink: toUrl: http://www.breitbart.com/sports/ anchor: Sports
+  outlink: toUrl: http://www.breitbart.com/news/ anchor: The Wires
+  outlink: toUrl: http://www.breitbart.com/london/ anchor: Breitbart London
+  outlink: toUrl: http://www.breitbart.com/jerusalem/ anchor: Breitbart Jerusalem
+  outlink: toUrl: http://www.breitbart.com/texas/ anchor: Breitbart Texas
+  outlink: toUrl: http://www.breitbart.com/california/ anchor: Breitbart California
+  outlink: toUrl: http://www.breitbart.com/people/ anchor: People
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/ anchor: Civil Rights Commissioner: Halt DACA Amnesty Talk Until Border Wall is Secured, Legal Immigration Cut
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/ anchor: border
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rep-speier-dems-willing-to-trade-daca-for-trumps-wall-we-can-tear-it-down-in-a-couple-years/ anchor: …Dem Rep: Trade DACA for Trump Wall… We Can Tear Down in ‘Couple of Years’…
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rep-speier-dems-willing-to-trade-daca-for-trumps-wall-we-can-tear-it-down-in-a-couple-years/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/jeff-sessions-curtails-immigration-judges-authority-to-let-illegal-aliens-walk-free/ anchor: Sessions Limits Judges’ Authority to Let Illegal Aliens Walk Free
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/jeff-sessions-curtails-immigration-judges-authority-to-let-illegal-aliens-walk-free/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/maher-i-feel-trumps-remaking-us-into-his-own-ugly-image-weve-had-16-school-shootings-this-year/ anchor: Maher: I Feel Trump’s ‘Remaking’ US ‘Into His Own, Ugly Image’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/maher-i-feel-trumps-remaking-us-into-his-own-ugly-image-weve-had-16-school-shootings-this-year/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/cecile-richards-without-title-x-funding-women-wont-know-abortion-legal-available/ anchor: Cecile Richards: Without Title X Funding Women ‘Won’t Know Abortion Legal or Available’
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/cecile-richards-without-title-x-funding-women-wont-know-abortion-legal-available/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/lessons-from-santa-fe-high-assault-weapon-bans-wont-work/ anchor: The Left’s Favorite Gun Controls Will Not Stop School Shooters…
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/lessons-from-santa-fe-high-assault-weapon-bans-wont-work/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/hillary-clinton-santa-fe-school-shooting-should-inspire-soul-searching-gun-control/ anchor: …Hillary: Santa Fe School Shooting Should Inspire ‘Soul Searching,’ Gun Control…
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/hillary-clinton-santa-fe-school-shooting-should-inspire-soul-searching-gun-control/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/kobach-a-huge-victory-for-states-rights-and-the-tenth-amendment/ anchor: Exclusive – Kobach: A Huge Victory for States’ Rights and Tenth Amendment
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/kobach-a-huge-victory-for-states-rights-and-the-tenth-amendment/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/andrew-sullivan-trump-is-awful-but-the-left-has-destroyed-america/ anchor: Andrew Sullivan: Trump Awful, Left Wants a Cultural-Marxist Dictatorship
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/andrew-sullivan-trump-is-awful-but-the-left-has-destroyed-america/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-journalism/2018/05/18/report-fox-news-installs-meditation-room-with-muslim-prayer-rugs/ anchor: Report: Woke Fox News Installs Meditation Room, Muslim Prayer Rugs
+  outlink: toUrl: http://www.breitbart.com/big-journalism/2018/05/18/report-fox-news-installs-meditation-room-with-muslim-prayer-rugs/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/conservatives-campaign-to-draft-jim-jordan-for-speaker/ anchor: Conservatives Campaign to Draft Jim Jordan for Speaker
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/conservatives-campaign-to-draft-jim-jordan-for-speaker/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/california/2018/05/18/donald-trump-endorses-california-candidate-john-cox-in-battle-for-governors-seat/ anchor: Trump Endorses California Candidate John Cox in Battle for Governor’s Seat
+  outlink: toUrl: http://www.breitbart.com/california/2018/05/18/donald-trump-endorses-california-candidate-john-cox-in-battle-for-governors-seat/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/national-security/2018/05/18/cuban-plane-carrying-104-passengers-crashes-havana/ anchor: Cuban Plane Carrying 105 Crashes After Takeoff in Havana, 3 Survivors
+  outlink: toUrl: http://www.breitbart.com/national-security/2018/05/18/cuban-plane-carrying-104-passengers-crashes-havana/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/poll-half-of-jeff-denhams-hispanic-constituents-oppose-daca-amnesty/ anchor: Poll: Half of Jeff Denham’s Hispanic Constituents Oppose DACA Amnesty
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/poll-half-of-jeff-denhams-hispanic-constituents-oppose-daca-amnesty/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/great-again-fewer-americans-putting-off-marriage-children-or-college-because-of-money-troubles/ anchor: Great Again: Fewer Americans Putting Off Marriage, Children, Because
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/great-again-fewer-americans-putting-off-marriage-children-or-college-because-of-money-troubles/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/tech/2018/05/18/masters-of-the-universe-backlash-founder-of-messaging-service-kik-creates-anti-facebook-alliance/ anchor: Masters of the Universe Backlash: ‘Anti-Facebook Alliance’ Formed
+  outlink: toUrl: http://www.breitbart.com/tech/2018/05/18/masters-of-the-universe-backlash-founder-of-messaging-service-kik-creates-anti-facebook-alliance/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/tech/2018/05/18/university-of-michigans-diversity-office-has-an-11-million-payroll/ anchor: U of Michigan’s Diversity Office Has an $11 Million Payroll
+  outlink: toUrl: http://www.breitbart.com/tech/2018/05/18/university-of-michigans-diversity-office-has-an-11-million-payroll/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/democratic-national-committee-seeks-trump-administrations-help-to-sue-russia/ anchor: DNC Seeks Trump Admin’s Help Suing Russia
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/democratic-national-committee-seeks-trump-administrations-help-to-sue-russia/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/two-pacs-battle-with-trump-billboards-once-again/ anchor: Dueling Billboards Thank Trump, Call for Impeachment in West Palm Beach
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/two-pacs-battle-with-trump-billboards-once-again/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/texas/2018/05/18/reports-active-shooter-in-texas-high-school/ anchor: 10 Dead After Shots Fired in Texas High School – Suspect Identified
+  outlink: toUrl: http://www.breitbart.com/texas/2018/05/18/reports-active-shooter-in-texas-high-school/ anchor: 10 Killed, 10 Wounded After Shots Fired in Texas High School ‘explosive devices found’ Suspect in Custody Identified
+  outlink: toUrl: http://www.breitbart.com/texas/2018/05/18/reports-active-shooter-in-texas-high-school/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/ anchor: Jennifer Aniston to Play Lesbian President in Netflix Comedy
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/ anchor: Jennifer Aniston to Play Lesbian President in Netflix Comedy
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/ anchor: Celebs Blame Republicans for Santa Fe School Shooting: ‘Go F**k Yourselves’
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/ anchor: Celebs Blame Republicans for Santa Fe School Shooting: ‘Go F**k Yourselves’
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/seth-myers-writer-racist-roseanne-muslim-neighbor-episode-was-poison/ anchor: Seth Myers Writer: ‘Racist’ ‘Roseanne’ Muslim Neighbor Episode was ‘Poison’
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/seth-myers-writer-racist-roseanne-muslim-neighbor-episode-was-poison/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rob-reiner/ anchor: Rob Reiner Warns of ‘Destruction of Democracy’ — Says MSNBC ‘Under Attack, Criticizes Fox News, Breitbart for Being ‘Aligned’ with Trump
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rob-reiner/ anchor: Rob Reiner Sez MSNBC ‘Under Attack… Fox News, Breitbart Part of ‘State Run Television’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rob-reiner/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/ anchor: Jay-Z Convinces Meek Mill to Cancel Trump Prison Reform Meeting
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/ anchor: Jay-Z Convinces Meek Mill to Cancel Trump Prison Reform Meeting
+  outlink: toUrl: http://www.breitbart.com/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/ anchor: Danan: Chelsea Handler’s Gaza Tweets Full of Anti-Israel Fake News
+  outlink: toUrl: http://www.breitbart.com/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/ anchor: Danan: Chelsea Handler’s Gaza Tweets Full of Anti-Israel Fake News
+  outlink: toUrl: http://www.breitbart.com/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/ anchor: Donald Trump: ‘May God Be with the Victims’ of Texas School Shooting
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/ anchor: Donald Trump: ‘May God Be with the Victims’ of Texas School Shooting…
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/ anchor: Santa Fe High School Weapons Policy: Firearms, Ammunition Prohibited
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/ anchor: …School Weapons Policy: Firearms, Ammunition Prohibited
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/tx-school-shooter-used-revolver-shotgun/ anchor: TX School Shooter Used a Revolver and a Shotgun…
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/tx-school-shooter-used-revolver-shotgun/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/ anchor: Sen. Rand Paul: It’s Time to Say ‘We’re Not Going to Leave Our Kids Defenseless’
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/ anchor: …Rand Takes Stand: Time to Say ‘We’re Not Going to Leave Our Kids Defenseless’…
+  outlink: toUrl: http://www.breitbart.com/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/ anchor: Rand: Shooters Aren’t Shooting Up the Sheriff’s Office – They Go ‘Where There Is No Self-Defense’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/ anchor: …Shooters Aren’t Shooting Up the Sheriff’s Office… …They Go ‘Where There Is No Self-Defense’…
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/ anchor: Texas AG: ‘Disarming Law-Abiding Citizens Doesn’t Actually Protect Our Children’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/ anchor: …Texas AG: ‘Disarming Law-Abiding Citizens Doesn’t Actually Protect Our Children’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/ anchor: MSNBC’s Nicolle Wallace: ‘We Have Now Let Down the Parkland Students’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/ anchor: MSNBC’s Nicolle Wallace: ‘We Have Now Let Down the Parkland Students’
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/ anchor: 
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/ anchor: Nielsen: Democrats Owe Trump Apology for Distorting MS-13 Remarks
+  outlink: toUrl: http://www.breitbart.com/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/ anchor: Nielsen: Democrats Owe Trump Apology for Distorting MS-13 Remarks
+Content Metadata: X-Cache=HIT Server=ECS (oxr/8313) nutch.content.digest=5332eac67fe0320c9882d9eaea3b6af8 Connection=close Last-Modified=Sat, 19 May 2018 10:22:29 GMT X-BAT=HIT Date=Sat, 19 May 2018 10:23:51 GMT nutch.crawl.score=1.0 nutch.fetch.time=1526725431486 Accept-Ranges=bytes nutch.segment.name=20180519032314 X-Varnish=1477765229 1477765137 Cache-Control=max-age=120 Content-Encoding=gzip X-ttl=from_backend Vary=Accept-Encoding Content-Length=28824 _fst_=33 X-Backend=web2 X-Node=90ca4bfadfb4 Content-Type=text/html; charset=UTF-8 
+Parse Metadata: og:image=http://www.breitbart.com/t/assets/i/BB-logo-highres.jpg twitter:card=summary_large_image og:type=website twitter:title=Breitbart - Breitbart News Network og:site_name=Breitbart google-site-verification=57be0AAF56hXmhEIghJn-yEIIvdBPvORILzlMg4NXj8 author=Breitbart News og:title=Breitbart News Network description=Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources. section=Politics og:description=Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources. fb:pages=95475020353 twitter:image=http://www.breitbart.com/t/assets/i/BB-logo-highres.jpg fb:app_id=1243316582352556 twitter:site=@BreitbartNews viewport=width=device-width,initial-scale=1 dc:title=Breitbart News Network twitter:description=Syndicated news and opinion website providing continuously updated headlines to top news and analysis sources. Content-Encoding=UTF-8 og:locale=en_US og:url=http://www.breitbart.com/ lastmod=2018-05-19T10:22:32Z Content-Type=text/html; charset=UTF-8 pubdate=2018-05-19T10:22:32Z 
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 65 (signature)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 0 seconds (0 days)
+Score: 0.0
+Signature: 5332eac67fe0320c9882d9eaea3b6af8
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 33 (fetch_success)
+Fetch time: Sat May 19 03:23:53 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 1.0
+Signature: null
+Metadata: 
+ 	_ngt_=1526725392264
+	_pst_=success(1), lastModified=1526725349000
+	_rs_=129
+	Content-Type=text/html
+	nutch.protocol.code=200
+
+ParseText::
+Breitbart News Network Civil Rights Commissioner: Halt DACA Amnesty Talk Until Border Wall is Secured, Legal Immigration Cut Peter Kirsanow, a member of the U.S. Commission on Civil Rights, says discussion of an amnesty for illegal aliens should be halted until a wall is secured along the U.S.-Mexico border and major cuts to legal immigration are enacted. In a letter
+
+
+Recno:: 1
+URL:: http://www.breitbart.com/big-government/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 2
+URL:: http://www.breitbart.com/big-government/2018/05/18/andrew-sullivan-trump-is-awful-but-the-left-has-destroyed-america/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 3
+URL:: http://www.breitbart.com/big-government/2018/05/18/cecile-richards-without-title-x-funding-women-wont-know-abortion-legal-available/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 4
+URL:: http://www.breitbart.com/big-government/2018/05/18/civil-rights-commissioner-halt-daca-amnesty-talk-until-border-wall-is-built-legal-immigration-is-cut/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 5
+URL:: http://www.breitbart.com/big-government/2018/05/18/conservatives-campaign-to-draft-jim-jordan-for-speaker/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 6
+URL:: http://www.breitbart.com/big-government/2018/05/18/democratic-national-committee-seeks-trump-administrations-help-to-sue-russia/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 7
+URL:: http://www.breitbart.com/big-government/2018/05/18/donald-trump-god-bless-victims-of-texas-school-shooting/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 8
+URL:: http://www.breitbart.com/big-government/2018/05/18/great-again-fewer-americans-putting-off-marriage-children-or-college-because-of-money-troubles/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 9
+URL:: http://www.breitbart.com/big-government/2018/05/18/hillary-clinton-santa-fe-school-shooting-should-inspire-soul-searching-gun-control/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 10
+URL:: http://www.breitbart.com/big-government/2018/05/18/jeff-sessions-curtails-immigration-judges-authority-to-let-illegal-aliens-walk-free/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 11
+URL:: http://www.breitbart.com/big-government/2018/05/18/kobach-a-huge-victory-for-states-rights-and-the-tenth-amendment/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 12
+URL:: http://www.breitbart.com/big-government/2018/05/18/lessons-from-santa-fe-high-assault-weapon-bans-wont-work/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 13
+URL:: http://www.breitbart.com/big-government/2018/05/18/poll-half-of-jeff-denhams-hispanic-constituents-oppose-daca-amnesty/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 14
+URL:: http://www.breitbart.com/big-government/2018/05/18/santa-fe-high-school-student-handbook-firearms-prohibited/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 15
+URL:: http://www.breitbart.com/big-government/2018/05/18/sen-rand-paul-its-time-to-say-were-not-going-to-leave-our-kids-defenseless/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 16
+URL:: http://www.breitbart.com/big-government/2018/05/18/two-pacs-battle-with-trump-billboards-once-again/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 17
+URL:: http://www.breitbart.com/big-government/2018/05/18/tx-school-shooter-used-revolver-shotgun/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 18
+URL:: http://www.breitbart.com/big-hollywood/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 19
+URL:: http://www.breitbart.com/big-hollywood/2018/05/18/celebs-blame-republicans-for-santa-fe-school-shooting-go-fk-yourselves/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 20
+URL:: http://www.breitbart.com/big-hollywood/2018/05/18/jay-z-convinces-meek-mill-to-cancel-trump-meeting/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 21
+URL:: http://www.breitbart.com/big-hollywood/2018/05/18/jennifer-aniston-play-1st-female-lesbian-president-new-netflix-comedy/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 22
+URL:: http://www.breitbart.com/big-hollywood/2018/05/18/seth-myers-writer-racist-roseanne-muslim-neighbor-episode-was-poison/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 23
+URL:: http://www.breitbart.com/big-journalism/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 24
+URL:: http://www.breitbart.com/big-journalism/2018/05/18/report-fox-news-installs-meditation-room-with-muslim-prayer-rugs/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 25
+URL:: http://www.breitbart.com/california/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 26
+URL:: http://www.breitbart.com/california/2018/05/18/donald-trump-endorses-california-candidate-john-cox-in-battle-for-governors-seat/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 27
+URL:: http://www.breitbart.com/jerusalem/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 28
+URL:: http://www.breitbart.com/jerusalem/2018/05/18/heres-how-one-tweet-from-chelsea-handler-is-chock-full-of-lies/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 29
+URL:: http://www.breitbart.com/london/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 30
+URL:: http://www.breitbart.com/national-security/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 31
+URL:: http://www.breitbart.com/national-security/2018/05/18/cuban-plane-carrying-104-passengers-crashes-havana/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 32
+URL:: http://www.breitbart.com/news/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 33
+URL:: http://www.breitbart.com/opensearch.xml
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 34
+URL:: http://www.breitbart.com/people/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 35
+URL:: http://www.breitbart.com/search/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 36
+URL:: http://www.breitbart.com/sports/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 37
+URL:: http://www.breitbart.com/tech/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 38
+URL:: http://www.breitbart.com/tech/2018/05/18/masters-of-the-universe-backlash-founder-of-messaging-service-kik-creates-anti-facebook-alliance/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 39
+URL:: http://www.breitbart.com/tech/2018/05/18/university-of-michigans-diversity-office-has-an-11-million-payroll/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 40
+URL:: http://www.breitbart.com/texas/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 41
+URL:: http://www.breitbart.com/texas/2018/05/18/reports-active-shooter-in-texas-high-school/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 42
+URL:: http://www.breitbart.com/video/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 43
+URL:: http://www.breitbart.com/video/2018/05/18/maher-i-feel-trumps-remaking-us-into-his-own-ugly-image-weve-had-16-school-shootings-this-year/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 44
+URL:: http://www.breitbart.com/video/2018/05/18/msnbcs-nicolle-wallace-we-have-now-let-down-the-parkland-students-by-letting-texas-happen/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 45
+URL:: http://www.breitbart.com/video/2018/05/18/nielsen-democrats-owe-trump-apology-for-distorting-ms-13-remarks/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 46
+URL:: http://www.breitbart.com/video/2018/05/18/rand-shooters-arent-shooting-up-the-sheriffs-office-they-go-where-there-is-no-self-defense/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 47
+URL:: http://www.breitbart.com/video/2018/05/18/rep-speier-dems-willing-to-trade-daca-for-trumps-wall-we-can-tear-it-down-in-a-couple-years/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 48
+URL:: http://www.breitbart.com/video/2018/05/18/rob-reiner/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+
+Recno:: 49
+URL:: http://www.breitbart.com/video/2018/05/18/texas-ag-disarming-law-abiding-citizens-doesnt-actually-protect-our-children/
+
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 
+CrawlDatum::
+Version: 7
+Status: 67 (linked)
+Fetch time: Sat May 19 03:24:35 PDT 2018
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 1800 seconds (0 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 

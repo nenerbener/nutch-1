@@ -336,9 +336,6 @@
     <field name="cache" type="string" stored="true" indexed="false"/>
     <field name="tstamp" type="date" stored="true" indexed="false"/>
 
-    <!-- EXPERIMENT: contentlength field added -->
-    <field name="contentlength" type="long" stored="true" indexed="true"/>
-
     <!-- fields for index-geoip plugin -->
     <field name="ip" type="string" stored="true" indexed="true" />
     <field name="cityName" type="string" stored="true" indexed="true" />

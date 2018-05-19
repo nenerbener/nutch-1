@@ -83,7 +83,7 @@
 
 <property>
   <name>http.agent.name</name>
-  <value></value>
+  <value>mmbot</value>
   <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
   please set this to a single word uniquely related to your organization.
 
@@ -434,14 +434,14 @@
 <!-- web db properties -->
 <property>
   <name>db.fetch.interval.default</name>
-  <value>2592000</value>
+  <value>1800</value>
   <description>The default number of seconds between re-fetches of a page (30 days).
   </description>
 </property>
 
 <property>
   <name>db.fetch.interval.max</name>
-  <value>7776000</value>
+  <value>-1</value>
   <description>The maximum number of seconds between re-fetches of a page
   (90 days). After this period every page in the db will be re-tried, no
   matter what is its status.
@@ -1248,7 +1248,7 @@
 
 <property>
   <name>plugin.folders</name>
-  <value>plugins</value>
+  <value>./runtime/local/plugins</value>
   <description>Directories where nutch plugins are located.  Each
   element may be a relative or absolute path.  If absolute, it is used
   as is.  If relative, it is searched for on the classpath.</description>
@@ -1265,7 +1265,7 @@
 
 <property>
   <name>plugin.includes</name>
-  <value>protocol-http|urlfilter-(regex|validator)|parse-(html|tika)|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+  <value>protocol-http|urlfilter-(regex|validator)|parse-tika|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)|contentlength</value>
   <description>Regular expression naming plugin directory names to
   include.  Any plugin not matching this expression is excluded.
   In any case you need at least include the nutch-extensionpoints plugin. By
@@ -1401,7 +1401,7 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 
 <property>
   <name>parser.timeout</name>
-  <value>30</value>
+  <value>-1</value>
   <description>Timeout in seconds for the parsing of a document, otherwise treats it as an exception and 
   moves on the the following documents. This parameter is applied to any Parser implementation. 
   Set to -1 to deactivate, bearing in mind that this could cause
@@ -1462,7 +1462,7 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 
 <property>
   <name>tika.extractor</name>
-  <value>none</value>
+  <value>boilerpipe</value>
   <description>
   Which text extraction algorithm to use. Valid values are: boilerpipe or none.
   </description>
@@ -1931,7 +1931,7 @@ visit https://wiki.apache.org/nutch/SimilarityScoringFilter-->
 
 <property>
   <name>solr.server.url</name>
-  <value>http://127.0.0.1:8983/solr/</value>
+  <value>http://localhost:8983/solr/nutch/</value>
   <description>
       Defines the Solr URL into which data should be indexed using the
       indexer-solr plugin.
