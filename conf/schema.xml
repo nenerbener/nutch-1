@@ -339,6 +339,15 @@
     <!-- EXPERIMENT: contentlength field added -->
     <field name="contentlength" type="long" stored="true" indexed="true"/>
 
+	<!-- EXPERIMENT: contentner ORGANIZATION -->
+    <field name="ner-location" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-organization" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-date" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-money" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-person" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-time" type="text_general" stored="true" indexed="true"/>
+    <field name="ner-percent" type="text_general" stored="true" indexed="true"/>
+
     <!-- fields for index-geoip plugin -->
     <field name="ip" type="string" stored="true" indexed="true" />
     <field name="cityName" type="string" stored="true" indexed="true" />

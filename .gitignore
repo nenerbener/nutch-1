@@ -5,6 +5,7 @@
 build/
 runtime/
 logs/
+lib/libner/
 #/bin/
 #.classpath
 #.naivebayes-model.crc

@@ -38,6 +38,15 @@
     <field dest="boost" source="boost"/>
     <field dest="digest" source="digest"/>
     <field dest="tstamp" source="tstamp"/>
+    <field dest="contentlength" source="contentlength"/>
+    <field dest="ner-location" source="LOCATION"/>
+    <field dest="ner-organization" source="ORGANIZATION"/>
+    <field dest="ner-date" source="DATE"/>
+    <field dest="ner-money" source="MONEY"/>
+    <field dest="ner-person" source="PERSON"/>
+    <field dest="ner-time" source="TIME"/>
+    <field dest="ner-percent" source="PERCENT"/>
+    <field dest="tstamp" source="tstamp"/>
   </fields>
   <uniqueKey>id</uniqueKey>
 </mapping>

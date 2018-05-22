@@ -1,440 +1,12 @@
-2018-05-19 03:22:55,496 INFO  crawl.Injector - Injector: starting at 2018-05-19 03:22:55
-2018-05-19 03:22:55,496 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
-2018-05-19 03:22:55,496 INFO  crawl.Injector - Injector: urlDir: urls
-2018-05-19 03:22:55,496 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
-2018-05-19 03:22:55,636 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:22:55,932 INFO  crawl.Injector - Injecting seed URL file file:/home/mm/WorkSpace/nutch-1xx/urls/seeds.txt
-2018-05-19 03:22:56,038 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:22:56,421 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:22:56,421 INFO  mapreduce.Job - Running job: job_local26407940_0001
-2018-05-19 03:22:56,826 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
-2018-05-19 03:22:57,024 INFO  crawl.Injector - Injector: overwrite: false
-2018-05-19 03:22:57,025 INFO  crawl.Injector - Injector: update: false
-2018-05-19 03:22:57,424 INFO  mapreduce.Job - Job job_local26407940_0001 running in uber mode : false
-2018-05-19 03:22:57,425 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:22:57,425 INFO  mapreduce.Job - Job job_local26407940_0001 completed successfully
-2018-05-19 03:22:57,436 INFO  mapreduce.Job - Counters: 31
-	File System Counters
-		FILE: Number of bytes read=866
-		FILE: Number of bytes written=723614
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=1
-		Map output bytes=55
-		Map output materialized bytes=63
-		Input split bytes=275
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=63
-		Reduce input records=1
-		Reduce output records=1
-		Spilled Records=2
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=13
-		Total committed heap usage (bytes)=638582784
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	injector
-		urls_injected=1
-	File Input Format Counters 
-		Bytes Read=0
-	File Output Format Counters 
-		Bytes Written=391
-2018-05-19 03:22:57,447 INFO  crawl.Injector - Injector: Total urls rejected by filters: 0
-2018-05-19 03:22:57,449 INFO  crawl.Injector - Injector: Total urls injected after normalization and filtering: 1
-2018-05-19 03:22:57,449 INFO  crawl.Injector - Injector: Total urls injected but already in CrawlDb: 0
-2018-05-19 03:22:57,449 INFO  crawl.Injector - Injector: Total new urls injected: 1
-2018-05-19 03:22:57,449 INFO  crawl.Injector - Injector: finished at 2018-05-19 03:22:57, elapsed: 00:00:01
-2018-05-19 03:23:11,989 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:23:12,254 INFO  crawl.Generator - Generator: starting at 2018-05-19 03:23:12
-2018-05-19 03:23:12,254 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
-2018-05-19 03:23:12,254 INFO  crawl.Generator - Generator: filtering: true
-2018-05-19 03:23:12,254 INFO  crawl.Generator - Generator: normalizing: true
-2018-05-19 03:23:12,255 INFO  crawl.Generator - Generator: topN: 50
-2018-05-19 03:23:12,263 INFO  crawl.Generator - Generator: running in local mode, generating exactly one partition.
-2018-05-19 03:23:12,332 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:23:12,783 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:23:12,783 INFO  mapreduce.Job - Running job: job_local1543019952_0001
-2018-05-19 03:23:13,139 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
-2018-05-19 03:23:13,139 INFO  crawl.AbstractFetchSchedule - defaultInterval=1800
-2018-05-19 03:23:13,139 INFO  crawl.AbstractFetchSchedule - maxInterval=-1
-2018-05-19 03:23:13,321 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
-2018-05-19 03:23:13,786 INFO  mapreduce.Job - Job job_local1543019952_0001 running in uber mode : false
-2018-05-19 03:23:13,789 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:23:13,791 INFO  mapreduce.Job - Job job_local1543019952_0001 completed successfully
-2018-05-19 03:23:13,831 INFO  mapreduce.Job - Counters: 30
-	File System Counters
-		FILE: Number of bytes read=924
-		FILE: Number of bytes written=739068
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=1
-		Map output bytes=84
-		Map output materialized bytes=92
-		Input split bytes=138
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=92
-		Reduce input records=1
-		Reduce output records=1
-		Spilled Records=2
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=13
-		Total committed heap usage (bytes)=638582784
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=161
-	File Output Format Counters 
-		Bytes Written=306
-2018-05-19 03:23:13,832 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
-2018-05-19 03:23:14,833 INFO  crawl.Generator - Generator: segment: crawl/segments/20180519032314
-2018-05-19 03:23:14,869 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:23:15,105 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:23:15,105 INFO  mapreduce.Job - Running job: job_local1062065701_0002
-2018-05-19 03:23:16,106 INFO  mapreduce.Job - Job job_local1062065701_0002 running in uber mode : false
-2018-05-19 03:23:16,110 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:23:16,111 INFO  mapreduce.Job - Job job_local1062065701_0002 completed successfully
-2018-05-19 03:23:16,125 INFO  mapreduce.Job - Counters: 30
-	File System Counters
-		FILE: Number of bytes read=2282
-		FILE: Number of bytes written=1474428
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=1
-		Map output bytes=106
-		Map output materialized bytes=114
-		Input split bytes=174
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=114
-		Reduce input records=1
-		Reduce output records=1
-		Spilled Records=2
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=0
-		Total committed heap usage (bytes)=849346560
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=212
-	File Output Format Counters 
-		Bytes Written=182
-2018-05-19 03:23:16,131 INFO  crawl.Generator - Generator: finished at 2018-05-19 03:23:16, elapsed: 00:00:03
-2018-05-19 03:23:49,810 INFO  fetcher.Fetcher - Fetcher: starting at 2018-05-19 03:23:49
-2018-05-19 03:23:49,810 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20180519032314
-2018-05-19 03:23:50,098 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:23:50,373 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:23:50,778 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:23:50,778 INFO  mapreduce.Job - Running job: job_local484275606_0001
-2018-05-19 03:23:50,959 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
-2018-05-19 03:23:50,959 INFO  fetcher.Fetcher - Fetcher: threads: 10
-2018-05-19 03:23:50,959 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
-2018-05-19 03:23:50,975 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 1 records hit by time limit : 0
-2018-05-19 03:23:51,227 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,246 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,247 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,247 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,247 INFO  fetcher.FetcherThread - FetcherThread 37 fetching http://www.breitbart.com/ (queue crawl delay=5000ms)
-2018-05-19 03:23:51,254 INFO  protocol.RobotRulesParser - robots.txt whitelist not configured.
-2018-05-19 03:23:51,254 INFO  http.Http - http.proxy.host = null
-2018-05-19 03:23:51,254 INFO  http.Http - http.proxy.port = 8080
-2018-05-19 03:23:51,254 INFO  http.Http - http.proxy.exception.list = false
-2018-05-19 03:23:51,254 INFO  http.Http - http.timeout = 10000
-2018-05-19 03:23:51,254 INFO  http.Http - http.content.limit = 65536
-2018-05-19 03:23:51,254 INFO  http.Http - http.agent = mmbot/Nutch-1.15-SNAPSHOT
-2018-05-19 03:23:51,254 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
-2018-05-19 03:23:51,255 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-2018-05-19 03:23:51,255 INFO  http.Http - http.enable.cookie.header = true
-2018-05-19 03:23:51,256 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,256 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,256 INFO  fetcher.FetcherThread - FetcherThread 38 has no more work available
-2018-05-19 03:23:51,257 INFO  fetcher.FetcherThread - FetcherThread 38 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,260 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,260 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,260 INFO  fetcher.FetcherThread - FetcherThread 39 has no more work available
-2018-05-19 03:23:51,260 INFO  fetcher.FetcherThread - FetcherThread 39 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,260 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,261 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,261 INFO  fetcher.FetcherThread - FetcherThread 40 has no more work available
-2018-05-19 03:23:51,261 INFO  fetcher.FetcherThread - FetcherThread 40 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,261 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,262 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,262 INFO  fetcher.FetcherThread - FetcherThread 41 has no more work available
-2018-05-19 03:23:51,262 INFO  fetcher.FetcherThread - FetcherThread 41 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,263 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,263 INFO  fetcher.FetcherThread - FetcherThread 42 has no more work available
-2018-05-19 03:23:51,263 INFO  fetcher.FetcherThread - FetcherThread 42 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,263 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,264 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,264 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,264 INFO  fetcher.FetcherThread - FetcherThread 43 has no more work available
-2018-05-19 03:23:51,264 INFO  fetcher.FetcherThread - FetcherThread 43 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,264 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,264 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,265 INFO  fetcher.FetcherThread - FetcherThread 44 has no more work available
-2018-05-19 03:23:51,265 INFO  fetcher.FetcherThread - FetcherThread 44 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,265 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:23:51,265 INFO  fetcher.FetcherThread - FetcherThread 31 Using queue mode : byHost
-2018-05-19 03:23:51,265 INFO  fetcher.FetcherThread - FetcherThread 45 has no more work available
-2018-05-19 03:23:51,265 INFO  fetcher.FetcherThread - FetcherThread 45 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,266 INFO  fetcher.Fetcher - Fetcher: throughput threshold: -1
-2018-05-19 03:23:51,266 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
-2018-05-19 03:23:51,266 INFO  fetcher.FetcherThread - FetcherThread 46 has no more work available
-2018-05-19 03:23:51,267 INFO  fetcher.FetcherThread - FetcherThread 46 -finishing thread FetcherThread, activeThreads=1
-2018-05-19 03:23:51,780 INFO  mapreduce.Job - Job job_local484275606_0001 running in uber mode : false
-2018-05-19 03:23:51,783 INFO  mapreduce.Job -  map 0% reduce 0%
-2018-05-19 03:23:52,436 INFO  fetcher.Fetcher - -activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
-2018-05-19 03:23:53,021 INFO  fetcher.FetcherThread - FetcherThread 37 has no more work available
-2018-05-19 03:23:53,021 INFO  fetcher.FetcherThread - FetcherThread 37 -finishing thread FetcherThread, activeThreads=0
-2018-05-19 03:23:53,440 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
-2018-05-19 03:23:53,441 INFO  fetcher.Fetcher - -activeThreads=0
-2018-05-19 03:23:54,261 INFO  mapreduce.Job -  map 100% reduce 0%
-2018-05-19 03:23:55,263 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:23:55,264 INFO  mapreduce.Job - Job job_local484275606_0001 completed successfully
-2018-05-19 03:23:55,299 INFO  mapreduce.Job - Counters: 32
-	File System Counters
-		FILE: Number of bytes read=133628
-		FILE: Number of bytes written=942914
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=2
-		Map output bytes=66391
-		Map output materialized bytes=66405
-		Input split bytes=156
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=66405
-		Reduce input records=2
-		Reduce output records=2
-		Spilled Records=4
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=147
-		Total committed heap usage (bytes)=837812224
-	FetcherStatus
-		bytes_downloaded=65536
-		success=1
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=182
-	File Output Format Counters 
-		Bytes Written=18173
-2018-05-19 03:23:55,300 INFO  fetcher.Fetcher - Fetcher: finished at 2018-05-19 03:23:55, elapsed: 00:00:05
-2018-05-19 03:24:32,343 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:24:32,629 INFO  parse.ParseSegment - ParseSegment: starting at 2018-05-19 03:24:32
-2018-05-19 03:24:32,630 INFO  parse.ParseSegment - ParseSegment: segment: crawl/segments/20180519032314
-2018-05-19 03:24:32,789 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:24:33,173 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:24:33,173 INFO  mapreduce.Job - Running job: job_local1890460271_0001
-2018-05-19 03:24:34,175 INFO  mapreduce.Job - Job job_local1890460271_0001 running in uber mode : false
-2018-05-19 03:24:34,176 INFO  mapreduce.Job -  map 0% reduce 0%
-2018-05-19 03:24:34,929 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
-2018-05-19 03:24:34,935 INFO  parse.ParseSegment - Parsed (1395ms):http://www.breitbart.com/
-2018-05-19 03:24:35,124 INFO  net.URLExemptionFilters - Found 0 extensions at point:'org.apache.nutch.net.URLExemptionFilter'
-2018-05-19 03:24:35,183 INFO  mapreduce.Job -  map 100% reduce 0%
-2018-05-19 03:24:35,224 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
-2018-05-19 03:24:36,184 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:24:36,185 INFO  mapreduce.Job - Job job_local1890460271_0001 completed successfully
-2018-05-19 03:24:36,235 INFO  mapreduce.Job - Counters: 31
-	File System Counters
-		FILE: Number of bytes read=102296
-		FILE: Number of bytes written=851039
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=1
-		Map output bytes=33521
-		Map output materialized bytes=33531
-		Input split bytes=154
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=1
-		Reduce shuffle bytes=33531
-		Reduce input records=1
-		Reduce output records=1
-		Spilled Records=2
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=106
-		Total committed heap usage (bytes)=1004535808
-	ParserStatus
-		success=1
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=17391
-	File Output Format Counters 
-		Bytes Written=0
-2018-05-19 03:24:36,236 INFO  parse.ParseSegment - ParseSegment: finished at 2018-05-19 03:24:36, elapsed: 00:00:03
-2018-05-19 03:36:33,110 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: starting at 2018-05-19 03:36:33
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: segments: [file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180519032314]
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: false
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: false
-2018-05-19 03:36:33,391 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
-2018-05-19 03:36:33,392 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
-2018-05-19 03:36:33,509 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:36:33,903 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:36:33,903 INFO  mapreduce.Job - Running job: job_local1680012398_0001
-2018-05-19 03:36:34,583 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
-2018-05-19 03:36:34,583 INFO  crawl.AbstractFetchSchedule - defaultInterval=1800
-2018-05-19 03:36:34,583 INFO  crawl.AbstractFetchSchedule - maxInterval=-1
-2018-05-19 03:36:34,906 INFO  mapreduce.Job - Job job_local1680012398_0001 running in uber mode : false
-2018-05-19 03:36:34,908 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:36:34,910 INFO  mapreduce.Job - Job job_local1680012398_0001 completed successfully
-2018-05-19 03:36:34,952 INFO  mapreduce.Job - Counters: 31
-	File System Counters
-		FILE: Number of bytes read=90970
-		FILE: Number of bytes written=1537116
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=103
-		Map output records=103
-		Map output bytes=13425
-		Map output materialized bytes=13677
-		Input split bytes=449
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=50
-		Reduce shuffle bytes=13677
-		Reduce input records=103
-		Reduce output records=50
-		Spilled Records=206
-		Shuffled Maps =3
-		Failed Shuffles=0
-		Merged Map outputs=3
-		GC time elapsed (ms)=19
-		Total committed heap usage (bytes)=1804075008
-	CrawlDB status
-		db_unfetched=50
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=14922
-	File Output Format Counters 
-		Bytes Written=7021
-2018-05-19 03:36:34,955 INFO  crawl.CrawlDb - CrawlDb update: finished at 2018-05-19 03:36:34, elapsed: 00:00:01
-2018-05-19 03:38:19,345 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 03:38:19,675 INFO  crawl.LinkDb - LinkDb: starting at 2018-05-19 03:38:19
-2018-05-19 03:38:19,675 INFO  crawl.LinkDb - LinkDb: linkdb: crawl/linkdb
-2018-05-19 03:38:19,675 INFO  crawl.LinkDb - LinkDb: URL normalize: true
-2018-05-19 03:38:19,676 INFO  crawl.LinkDb - LinkDb: URL filter: true
-2018-05-19 03:38:19,676 INFO  crawl.LinkDb - LinkDb: internal links will be ignored.
-2018-05-19 03:38:19,676 INFO  crawl.LinkDb - LinkDb: adding segment: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180519032314
-2018-05-19 03:38:19,749 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 03:38:20,174 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 03:38:20,174 INFO  mapreduce.Job - Running job: job_local1315300996_0001
-2018-05-19 03:38:20,592 INFO  regex.RegexURLNormalizer - can't find rules for scope 'linkdb', using default
-2018-05-19 03:38:21,177 INFO  mapreduce.Job - Job job_local1315300996_0001 running in uber mode : false
-2018-05-19 03:38:21,179 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 03:38:21,181 INFO  mapreduce.Job - Job job_local1315300996_0001 completed successfully
-2018-05-19 03:38:21,208 INFO  mapreduce.Job - Counters: 30
-	File System Counters
-		FILE: Number of bytes read=9546
-		FILE: Number of bytes written=732295
-		FILE: Number of read operations=0
-		FILE: Number of large read operations=0
-		FILE: Number of write operations=0
-	Map-Reduce Framework
-		Map input records=1
-		Map output records=0
-		Map output bytes=0
-		Map output materialized bytes=6
-		Input split bytes=157
-		Combine input records=0
-		Combine output records=0
-		Reduce input groups=0
-		Reduce shuffle bytes=6
-		Reduce input records=0
-		Reduce output records=0
-		Spilled Records=0
-		Shuffled Maps =1
-		Failed Shuffles=0
-		Merged Map outputs=1
-		GC time elapsed (ms)=10
-		Total committed heap usage (bytes)=638582784
-	Shuffle Errors
-		BAD_ID=0
-		CONNECTION=0
-		IO_ERROR=0
-		WRONG_LENGTH=0
-		WRONG_MAP=0
-		WRONG_REDUCE=0
-	File Input Format Counters 
-		Bytes Read=4538
-	File Output Format Counters 
-		Bytes Written=279
-2018-05-19 03:38:21,210 INFO  crawl.LinkDb - LinkDb: finished at 2018-05-19 03:38:21, elapsed: 00:00:01
-2018-05-19 04:00:11,782 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-05-19 04:00:12,053 INFO  segment.SegmentChecker - Segment dir is complete: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180519032314.
-2018-05-19 04:00:12,055 INFO  indexer.IndexingJob - Indexer: starting at 2018-05-19 04:00:12
-2018-05-19 04:00:12,063 INFO  indexer.IndexingJob - Indexer: deleting gone documents: false
-2018-05-19 04:00:12,063 INFO  indexer.IndexingJob - Indexer: URL filtering: false
-2018-05-19 04:00:12,063 INFO  indexer.IndexingJob - Indexer: URL normalizing: false
-2018-05-19 04:00:12,347 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
-2018-05-19 04:00:12,347 INFO  indexer.IndexingJob - Active IndexWriters :
+2018-05-22 00:10:15,847 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-05-22 00:10:16,121 INFO  segment.SegmentChecker - Segment dir is complete: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180521193729.
+2018-05-22 00:10:16,124 INFO  segment.SegmentChecker - Segment dir is complete: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180521193402.
+2018-05-22 00:10:16,125 INFO  indexer.IndexingJob - Indexer: starting at 2018-05-22 00:10:16
+2018-05-22 00:10:16,134 INFO  indexer.IndexingJob - Indexer: deleting gone documents: false
+2018-05-22 00:10:16,134 INFO  indexer.IndexingJob - Indexer: URL filtering: false
+2018-05-22 00:10:16,134 INFO  indexer.IndexingJob - Indexer: URL normalizing: false
+2018-05-22 00:10:16,389 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
+2018-05-22 00:10:16,390 INFO  indexer.IndexingJob - Active IndexWriters :
 SOLRIndexWriter
 	solr.server.url : URL of the SOLR instance
 	solr.zookeeper.hosts : URL of the Zookeeper quorum
@@ -445,54 +17,131 @@ SOLRIndexWriter
 	solr.auth.password : password for authentication
 
 
-2018-05-19 04:00:12,348 INFO  indexer.IndexerMapReduce - IndexerMapReduce: crawldb: crawl/crawldb
-2018-05-19 04:00:12,348 INFO  indexer.IndexerMapReduce - IndexerMapReduce: linkdb: crawl/linkdb
-2018-05-19 04:00:12,348 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180519032314
-2018-05-19 04:00:12,485 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
-2018-05-19 04:00:13,758 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
-2018-05-19 04:00:13,759 INFO  mapreduce.Job - Running job: job_local439206527_0001
-2018-05-19 04:00:14,365 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: content dest: content
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: title dest: title
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: host dest: host
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: segment dest: segment
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: boost dest: boost
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: digest dest: digest
-2018-05-19 04:00:14,552 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
-2018-05-19 04:00:14,608 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
-2018-05-19 04:00:14,712 INFO  solr.SolrIndexWriter - Indexing 1/1 documents
-2018-05-19 04:00:14,717 INFO  solr.SolrIndexWriter - Deleting 0 documents
-2018-05-19 04:00:14,760 INFO  mapreduce.Job - Job job_local439206527_0001 running in uber mode : false
-2018-05-19 04:00:14,762 INFO  mapreduce.Job -  map 100% reduce 0%
-2018-05-19 04:00:16,767 INFO  mapreduce.Job -  map 100% reduce 100%
-2018-05-19 04:00:16,768 INFO  mapreduce.Job - Job job_local439206527_0001 completed successfully
-2018-05-19 04:00:16,812 INFO  mapreduce.Job - Counters: 31
+2018-05-22 00:10:16,392 INFO  indexer.IndexerMapReduce - IndexerMapReduce: crawldb: crawl/crawldb
+2018-05-22 00:10:16,392 INFO  indexer.IndexerMapReduce - IndexerMapReduce: linkdb: crawl/linkdb
+2018-05-22 00:10:16,392 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180521193729
+2018-05-22 00:10:16,394 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/home/mm/WorkSpace/nutch-1xx/crawl/segments/20180521193402
+2018-05-22 00:10:16,484 WARN  mapreduce.JobResourceUploader - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-05-22 00:10:17,824 INFO  mapreduce.Job - The url to track the job: http://localhost:8080/
+2018-05-22 00:10:17,825 INFO  mapreduce.Job - Running job: job_local2097759233_0001
+2018-05-22 00:10:18,826 INFO  mapreduce.Job - Job job_local2097759233_0001 running in uber mode : false
+2018-05-22 00:10:18,830 INFO  mapreduce.Job -  map 100% reduce 0%
+2018-05-22 00:10:19,611 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: content dest: content
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: title dest: title
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: host dest: host
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: segment dest: segment
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: boost dest: boost
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: digest dest: digest
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: contentlength dest: contentlength
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: LOCATION dest: ner-location
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: ORGANIZATION dest: ner-organization
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: DATE dest: ner-date
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: MONEY dest: ner-money
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: PERSON dest: ner-person
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: TIME dest: ner-time
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: PERCENT dest: ner-percent
+2018-05-22 00:10:19,759 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2018-05-22 00:10:19,769 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2018-05-22 00:10:21,755 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:23,796 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:26,171 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:26,520 INFO  mapreduce.Job -  map 100% reduce 69%
+2018-05-22 00:10:27,639 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:28,531 INFO  mapreduce.Job -  map 100% reduce 71%
+2018-05-22 00:10:29,061 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:30,354 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:31,535 INFO  mapreduce.Job -  map 100% reduce 72%
+2018-05-22 00:10:31,698 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:32,836 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:34,051 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:35,291 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:35,636 INFO  mapreduce.Job -  map 100% reduce 74%
+2018-05-22 00:10:36,431 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:37,637 INFO  mapreduce.Job -  map 100% reduce 75%
+2018-05-22 00:10:37,647 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:38,931 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:40,064 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:40,646 INFO  mapreduce.Job -  map 100% reduce 77%
+2018-05-22 00:10:41,354 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:42,497 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:43,658 INFO  mapreduce.Job -  map 100% reduce 78%
+2018-05-22 00:10:43,897 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:45,035 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:46,342 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:46,664 INFO  mapreduce.Job -  map 100% reduce 80%
+2018-05-22 00:10:47,490 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:48,811 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:49,668 INFO  mapreduce.Job -  map 100% reduce 81%
+2018-05-22 00:10:49,946 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:51,313 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:52,433 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:52,670 INFO  mapreduce.Job -  map 100% reduce 83%
+2018-05-22 00:10:53,634 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:54,927 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:55,676 INFO  mapreduce.Job -  map 100% reduce 85%
+2018-05-22 00:10:56,068 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:57,379 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:58,577 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:10:58,678 INFO  mapreduce.Job -  map 100% reduce 88%
+2018-05-22 00:10:59,709 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:01,055 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:01,683 INFO  mapreduce.Job -  map 100% reduce 89%
+2018-05-22 00:11:02,260 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:03,477 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:04,615 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:04,685 INFO  mapreduce.Job -  map 100% reduce 91%
+2018-05-22 00:11:05,731 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:06,837 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:07,691 INFO  mapreduce.Job -  map 100% reduce 92%
+2018-05-22 00:11:08,077 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:09,245 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:10,391 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:10,693 INFO  mapreduce.Job -  map 100% reduce 95%
+2018-05-22 00:11:11,543 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:12,669 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:13,699 INFO  mapreduce.Job -  map 100% reduce 96%
+2018-05-22 00:11:13,846 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:15,047 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:16,242 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:16,701 INFO  mapreduce.Job -  map 100% reduce 98%
+2018-05-22 00:11:17,393 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:18,625 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:19,703 INFO  mapreduce.Job -  map 100% reduce 99%
+2018-05-22 00:11:19,775 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:20,934 INFO  corenlp.CoreNLPNERecogniser - Available for service ? true
+2018-05-22 00:11:20,944 INFO  solr.SolrIndexWriter - Indexing 48/48 documents
+2018-05-22 00:11:20,944 INFO  solr.SolrIndexWriter - Deleting 0 documents
+2018-05-22 00:11:21,705 INFO  mapreduce.Job -  map 100% reduce 100%
+2018-05-22 00:11:21,706 INFO  mapreduce.Job - Job job_local2097759233_0001 completed successfully
+2018-05-22 00:11:21,754 INFO  mapreduce.Job - Counters: 31
 	File System Counters
-		FILE: Number of bytes read=263873
-		FILE: Number of bytes written=2814917
+		FILE: Number of bytes read=11238805
+		FILE: Number of bytes written=18627816
 		FILE: Number of read operations=0
 		FILE: Number of large read operations=0
 		FILE: Number of write operations=0
 	Map-Reduce Framework
-		Map input records=154
-		Map output records=154
-		Map output bytes=36136
-		Map output materialized bytes=36525
-		Input split bytes=900
+		Map input records=4586
+		Map output records=4586
+		Map output bytes=1318521
+		Map output materialized bytes=1328761
+		Input split bytes=1525
 		Combine input records=0
 		Combine output records=0
-		Reduce input groups=50
-		Reduce shuffle bytes=36525
-		Reduce input records=154
-		Reduce output records=1
-		Spilled Records=308
-		Shuffled Maps =6
+		Reduce input groups=550
+		Reduce shuffle bytes=1328761
+		Reduce input records=4586
+		Reduce output records=48
+		Spilled Records=9172
+		Shuffled Maps =10
 		Failed Shuffles=0
-		Merged Map outputs=6
-		GC time elapsed (ms)=20
-		Total committed heap usage (bytes)=3524788224
+		Merged Map outputs=10
+		GC time elapsed (ms)=3463
+		Total committed heap usage (bytes)=9298771968
 	IndexerStatus
-		indexed (add/update)=1
+		indexed (add/update)=48
 	Shuffle Errors
 		BAD_ID=0
 		CONNECTION=0
@@ -501,16 +150,25 @@ SOLRIndexWriter
 		WRONG_MAP=0
 		WRONG_REDUCE=0
 	File Input Format Counters 
-		Bytes Read=26657
+		Bytes Read=839592
 	File Output Format Counters 
 		Bytes Written=0
-2018-05-19 04:00:16,819 INFO  solr.SolrMappingReader - source: content dest: content
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: title dest: title
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: host dest: host
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: segment dest: segment
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: boost dest: boost
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: digest dest: digest
-2018-05-19 04:00:16,822 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
-2018-05-19 04:00:16,827 INFO  indexer.IndexingJob - Indexer: number of documents indexed, deleted, or skipped:
-2018-05-19 04:00:16,831 INFO  indexer.IndexingJob - Indexer:      1  indexed (add/update)
-2018-05-19 04:00:16,831 INFO  indexer.IndexingJob - Indexer: finished at 2018-05-19 04:00:16, elapsed: 00:00:04
+2018-05-22 00:11:21,766 INFO  solr.SolrMappingReader - source: content dest: content
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: title dest: title
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: host dest: host
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: segment dest: segment
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: boost dest: boost
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: digest dest: digest
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: contentlength dest: contentlength
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: LOCATION dest: ner-location
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: ORGANIZATION dest: ner-organization
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: DATE dest: ner-date
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: MONEY dest: ner-money
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: PERSON dest: ner-person
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: TIME dest: ner-time
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: PERCENT dest: ner-percent
+2018-05-22 00:11:21,771 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2018-05-22 00:11:21,778 INFO  indexer.IndexingJob - Indexer: number of documents indexed, deleted, or skipped:
+2018-05-22 00:11:21,783 INFO  indexer.IndexingJob - Indexer:     48  indexed (add/update)
+2018-05-22 00:11:21,784 INFO  indexer.IndexingJob - Indexer: finished at 2018-05-22 00:11:21, elapsed: 00:01:05
