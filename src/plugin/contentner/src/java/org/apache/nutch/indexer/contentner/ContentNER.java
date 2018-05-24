@@ -45,6 +45,8 @@ public class ContentNER implements IndexingFilter {
 	// private static String[] urlMetaTags;
 	private Configuration conf;
 
+	CoreNLPNERecogniser ner;
+	
 	/**
 	 * This will take the metatags that you have listed in your "urlmeta.tags"
 	 * property, and looks for them inside the CrawlDatum object. If they exist,
@@ -59,8 +61,6 @@ public class ContentNER implements IndexingFilter {
 		// adds the new field to the document
 		// doc.add("contentlength", content.length());
 
-		CoreNLPNERecogniser ner = new CoreNLPNERecogniser();
-
 		// output ner values
 		Map<String, Set<String>> names = ner.recognise(content);
 		Set<Map.Entry<String,Set<String>>> es = names.entrySet();
@@ -68,7 +68,6 @@ public class ContentNER implements IndexingFilter {
 		while (iterator.hasNext()) {
 			Map.Entry<String,Set<String>> me = iterator.next();
 			String key = me.getKey();
-//			System.out.println("key: " + key);
 			Set<String> esv = me.getValue();
 			Iterator<String> setIterator = esv.iterator();
 			String strofnames = new String();
@@ -76,7 +75,6 @@ public class ContentNER implements IndexingFilter {
 				String value = setIterator.next();
 				strofnames = new StringBuilder(strofnames).append(value).toString();
 				if (setIterator.hasNext()) strofnames = new StringBuilder(strofnames).append(" : ").toString();
-//				System.out.println("val: " + value);
 			}
 			System.out.println("key val: " + key + ": " + strofnames);
 			doc.add(key, strofnames);
@@ -90,6 +88,8 @@ public class ContentNER implements IndexingFilter {
 
 	/** Boilerplate */
 	public Configuration getConf() {
+
+		ner = new CoreNLPNERecogniser();
 		return conf;
 	}
 
