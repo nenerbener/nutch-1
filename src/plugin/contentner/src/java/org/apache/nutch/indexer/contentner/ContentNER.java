@@ -36,8 +36,20 @@ import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
 // import org.json.JSONObject;
 
 /**
- * Plugin to add content length to Index
-*/
+ * ContentNER gets parsed data from the raw content, applies a Name-Entity Recognizer and
+ * adds the results to {@link NutchDocument} doc.
+ * 
+ * The NER recognizer ({@link CoreNLPNERecogniser}) returns Map<String, Set,String>> which
+ * is a map containing entries of key-value pairs: key=("PERSON"|"ORGANIZATION",..),
+ * value (list of persons|list of organizations,...).The lists of persons,..,organizations 
+ * are extracted from the parsed text.
+ * 
+ * @see IndexingFilter#filter
+ * @return doc
+ * @param parse
+ * @param datum
+ * @param inLinks
+ */
 public class ContentNER implements IndexingFilter {
 
 	private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
@@ -45,38 +57,52 @@ public class ContentNER implements IndexingFilter {
 	// private static String[] urlMetaTags;
 	private Configuration conf;
 
-	CoreNLPNERecogniser ner;
+	CoreNLPNERecogniser ner = null;
 	
-	/**
-	 * This will take the metatags that you have listed in your "urlmeta.tags"
-	 * property, and looks for them inside the CrawlDatum object. If they exist,
-	 * this will add it as an attribute inside the NutchDocument.
-	 * 
-	 * @see IndexingFilter#filter
-	 */
-	// implements the filter-method which gives you access to important Objects like
-	// NutchDocument
 	public NutchDocument filter(NutchDocument doc, Parse parse, Text url, CrawlDatum datum, Inlinks inlinks) {
+		
+		//parse.getText() returns the main body of unstructured text containing person and entity names
 		String content = parse.getText();
-		// adds the new field to the document
-		// doc.add("contentlength", content.length());
+		
+		//initialize CoreNLPNERecogniser and load dictionaries (FIX: dictionary name is hardcoded)
+		if (ner == null) {
+			ner = new CoreNLPNERecogniser();
+			if (ner == null) {
+				LOG.error("CoreNLPNERegcognizer not initialized successfully - terminating program");
+				System.exit(-1); //exit if fail
+			}
+		}
 
-		// output ner values
+		// call NER recognize() on parse content returning the map of key-value pairs described above.
 		Map<String, Set<String>> names = ner.recognise(content);
+		
+		//loop through NER results, flatten to Map<String>,String> using StringBuilder and add map entries to doc
 		Set<Map.Entry<String,Set<String>>> es = names.entrySet();
+		
+		//iterate through keys
 		Iterator<Map.Entry<String,Set<String>>> iterator = es.iterator();
 		while (iterator.hasNext()) {
 			Map.Entry<String,Set<String>> me = iterator.next();
 			String key = me.getKey();
+			
+			//iterate through values
 			Set<String> esv = me.getValue();
+			
+			//iterate through names, entity set
 			Iterator<String> setIterator = esv.iterator();
 			String strofnames = new String();
 			while (setIterator.hasNext()) {
 				String value = setIterator.next();
+				
+				//build appended string of names, entities,...
 				strofnames = new StringBuilder(strofnames).append(value).toString();
+				
+				//add " : " separator, do not add at end of appended string
 				if (setIterator.hasNext()) strofnames = new StringBuilder(strofnames).append(" : ").toString();
 			}
 			System.out.println("key val: " + key + ": " + strofnames);
+			
+			// add key, entities to doc
 			doc.add(key, strofnames);
 		}
 
@@ -86,14 +112,16 @@ public class ContentNER implements IndexingFilter {
 		return doc;
 	}
 
-	/** Boilerplate */
+	/**
+	 * getConf - get configuration
+	 */
 	public Configuration getConf() {
-
-		ner = new CoreNLPNERecogniser();
 		return conf;
 	}
 
-	//Boilerplate
+	/** 
+	 * setConf - set configuration
+	 */ 
 	public void setConf(Configuration conf) {
 		this.conf = conf;
 	}
