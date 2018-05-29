@@ -175,6 +175,8 @@
       <packageset dir="${src.dir}"/>
       <packageset dir="${plugins.dir}/any23/src/java/" />
       <packageset dir="${plugins.dir}/creativecommons/src/java"/>
+      <packageset dir="${plugins.dir}/contentlength/src/java"/>
+      <packageset dir="${plugins.dir}/contentner/src/java"/>
       <packageset dir="${plugins.dir}/feed/src/java"/>
       <packageset dir="${plugins.dir}/headings/src/java"/>
       <packageset dir="${plugins.dir}/index-anchor/src/java"/>
@@ -632,6 +634,8 @@
       <packageset dir="${src.dir}"/>
       <packageset dir="${plugins.dir}/any23/src/java/" />
       <packageset dir="${plugins.dir}/creativecommons/src/java"/>
+      <packageset dir="${plugins.dir}/contentlength/src/java"/>
+      <packageset dir="${plugins.dir}/contentner/src/java"/>
       <packageset dir="${plugins.dir}/feed/src/java"/>
       <packageset dir="${plugins.dir}/headings/src/java"/>
       <packageset dir="${plugins.dir}/index-anchor/src/java"/>
@@ -704,13 +708,13 @@
       <link href="${javadoc.link.lucene.analyzers-common}"/>
       <link href="${javadoc.link.solr-solrj}"/>
 
-      <classpath refid="classpath"/>
+<!--      <classpath refid="classpath"/>
       <classpath>
         <fileset dir="${plugins.dir}" >
           <include name="**/*.jar"/>
         </fileset>
       </classpath>
-
+-->
       <group title="Core" packages="org.apache.nutch.*"/>
       <group title="Plugins API" packages="${plugins.api}"/>
       <group title="Protocol Plugins" packages="${plugins.protocol}"/>

@@ -36,8 +36,8 @@ import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
 // import org.json.JSONObject;
 
 /**
- * ContentNER gets parsed data from the raw content, applies a Name-Entity Recognizer and
- * adds the results to {@link NutchDocument} doc.
+ * ContentNER gets parsed data from the raw fetched content, applies a Name-Entity Recognizer and
+ * adds the results to a {@link NutchDocument} (doc).
  * 
  * The NER recognizer ({@link CoreNLPNERecogniser}) returns Map<String, Set,String>> which
  * is a map containing entries of key-value pairs: key=("PERSON"|"ORGANIZATION",..),
@@ -113,15 +113,17 @@ public class ContentNER implements IndexingFilter {
 	}
 
 	/**
-	 * getConf - get configuration
+	 * getConf - return ContentNER configuration
+	 * @return conf - configuration used by ContentNER
 	 */
 	public Configuration getConf() {
 		return conf;
 	}
 
-	/** 
+	/**
 	 * setConf - set configuration
-	 */ 
+	 * @param conf - set configuration used by ContentNER
+	 */
 	public void setConf(Configuration conf) {
 		this.conf = conf;
 	}
