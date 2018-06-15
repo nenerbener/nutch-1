@@ -174,11 +174,11 @@
 	<classpathentry kind="lib" path="build/lib/hadoop-annotations-2.7.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-auth-2.7.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-client-2.2.0.jar"/>
-	<classpathentry kind="lib" path="build/lib/hadoop-common-2.7.4.jar"/>
+	<classpathentry kind="lib" path="build/lib/hadoop-common-2.7.4.jar" sourcepath="/home/mm/WorkSpace/debug.source/hadoop-common-2.7.4-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-hdfs-2.7.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-app-2.2.0.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-common-2.7.4.jar"/>
-	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-core-2.7.4.jar"/>
+	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-core-2.7.4.jar" sourcepath="/home/mm/WorkSpace/debug.source/hadoop-mapreduce-client-core-2.7.4-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-jobclient-2.7.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-mapreduce-client-shuffle-2.7.4.jar"/>
 	<classpathentry kind="lib" path="build/lib/hadoop-yarn-api-2.7.4.jar"/>

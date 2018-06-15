@@ -28,7 +28,7 @@ public class URLFilters {
 
   public URLFilters(Configuration conf) {
     this.filters = (URLFilter[]) PluginRepository.get(conf).getOrderedPlugins(
-        URLFilter.class, URLFilter.X_POINT_ID, URLFILTER_ORDER);
+    		URLFilter.class, URLFilter.X_POINT_ID, URLFILTER_ORDER);
   }
 
   public URLFilter[] getFilters() {
