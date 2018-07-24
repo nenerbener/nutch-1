@@ -142,6 +142,14 @@ public class FetcherThread extends Thread {
   //Used for publishing events
   private FetcherThreadPublisher publisher;
   private boolean activatePublisher;
+  
+  //Configuration parameters to extend FetcherThread to read the default Youtube CC track
+  //after reading a Youtube URL. The added code recognizes a Youtube page with embedded video
+  //and requests the CC data through a Youtube MagicURL.
+  //nutch-default.xml parameters -
+  //	fetcher.extractDefaultClosedCaption = (boolean)[true|false]
+  //	NOTE: make sure to add YoutubeSRT plugin configured in nutch-default.xml
+  //public static final String FETCHER_EXTRACTDEFAULTCLOSEDCAPTION = "fetcher.extractDefaultClosedCaption";
 
   public FetcherThread(Configuration conf, AtomicInteger activeThreads, FetchItemQueues fetchQueues, 
       QueueFeeder feeder, AtomicInteger spinWaiting, AtomicLong lastRequestStart, FetcherRun.Context context,
