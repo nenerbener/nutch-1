@@ -100,7 +100,8 @@
     <ant dir="urlnormalizer-regex" target="deploy"/>
     <ant dir="urlnormalizer-slash" target="deploy"/>
     <ant dir="contentlength" target="deploy"/>
-    <ant dir="contentner" target="deploy"/>
+		<!--    <ant dir="contentner" target="deploy"/> -->
+    <ant dir="youtubeccreader" target="deploy"/>
   </target>
 
   <!-- ====================================================== -->

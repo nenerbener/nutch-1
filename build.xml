@@ -176,7 +176,7 @@
       <packageset dir="${plugins.dir}/any23/src/java/" />
       <packageset dir="${plugins.dir}/creativecommons/src/java"/>
       <packageset dir="${plugins.dir}/contentlength/src/java"/>
-      <packageset dir="${plugins.dir}/contentner/src/java"/>
+      <packageset dir="${plugins.dir}/youtubeccreader/src/java"/>
       <packageset dir="${plugins.dir}/feed/src/java"/>
       <packageset dir="${plugins.dir}/headings/src/java"/>
       <packageset dir="${plugins.dir}/index-anchor/src/java"/>
@@ -635,7 +635,7 @@
       <packageset dir="${plugins.dir}/any23/src/java/" />
       <packageset dir="${plugins.dir}/creativecommons/src/java"/>
       <packageset dir="${plugins.dir}/contentlength/src/java"/>
-      <packageset dir="${plugins.dir}/contentner/src/java"/>
+      <packageset dir="${plugins.dir}/youtubeccreader/src/java"/>
       <packageset dir="${plugins.dir}/feed/src/java"/>
       <packageset dir="${plugins.dir}/headings/src/java"/>
       <packageset dir="${plugins.dir}/index-anchor/src/java"/>
