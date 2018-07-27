@@ -36,8 +36,12 @@ import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
 // import org.json.JSONObject;
 
 /**
- * ContentNER gets parsed data from the raw fetched content, applies a Name-Entity Recognizer and
- * adds the results to a {@link NutchDocument} (doc).
+ * YoutubeCCReader performs multiple tasks should be separated into individual tasks in a later design.
+ * 1) Performs NER on parse data (main free text content).
+ * 2) identifies Youtube pages with embedded video and downloads the default closed caption data where available.
+ * 3) The method then applies NER on the CC data. 
+ * 4) Parse NER data, Youtube closed caption data, closed caption NER data and cc timing data are then added to the
+ * {@link NutchDocument} and sent to an external indexer (the default Solr).
  * 
  * The NER recognizer ({@link CoreNLPNERecogniser}) returns Map<String, Set,String>> which
  * is a map containing entries of key-value pairs: key=("PERSON"|"ORGANIZATION",..),
@@ -51,6 +55,12 @@ import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
  * @param inLinks
  */
 public class YoutubeCCReader implements IndexingFilter {
+
+	// process commandline parameters
+	private Boolean settingDebugOption; // debug option default (set in method setConf())
+	private Boolean settingIncludeTitleOption; // include title option default (set in method setConf())
+	private Boolean settingIncludeTrackTitleOption; // include track title option default (set in method setConf())
+	private Boolean setRemoveTimingSubtitlesOption; // remove timing subtitles option default (set in method setConf())
 
 	private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 	private static final String CONF_PROPERTY = "youtubeccreader.tags";
@@ -126,5 +136,10 @@ public class YoutubeCCReader implements IndexingFilter {
 	 */
 	public void setConf(Configuration conf) {
 		this.conf = conf;
+		// process commandline parameters
+		this.settingDebugOption = conf.getBoolean("indexer.setting.debug.option", false); // debug option
+		this.settingIncludeTitleOption = conf.getBoolean("indexer.setting.include.title.option", false); // include title option
+		this.settingIncludeTrackTitleOption = conf.getBoolean("indexer.setting.include.track.title.option", false); // include track title option
+		this.setRemoveTimingSubtitlesOption = conf.getBoolean("indexer.set.remove.timing.subtitle.option", true); // remove timing subtitles option
 	}
 }

@@ -2783,4 +2783,37 @@ If true (default) the Sitemap parser rejects URLs not sharing the same
     Maximum number of redirects to follow.
    </description>
 </property>
+
+<property>
+  <name>indexer.setting.debug.option</name>
+  <value>true</value>
+  <description>
+    Include additional debug logging info. Not full integrated into slf4j.
+   </description>
+</property>
+
+<property>
+  <name>indexer.setting.include.title.option</name>
+  <value>true</value>
+  <description>
+    Add descriptive title from Youtube page to closed caption output file title
+   </description>
+</property>
+
+<property>
+  <name>indexer.setting.include.track.title.option</name>
+  <value>true</value>
+  <description>
+    Add descriptive track info from Youtube video to closed caption output file title
+   </description>
+</property>
+
+<property>
+  <name>indexer.set.remove.timing.subtitle.option</name>
+  <value>false</value>
+  <description>
+    Include an additional NutchDocument element that contains both text and timing info
+   </description>
+</property>
+
 </configuration>
