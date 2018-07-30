@@ -999,5 +999,6 @@
 	<classpathentry kind="lib" path="build/test/lib/xmlenc-0.52.jar"/>
 	<classpathentry kind="lib" path="build/test/lib/xmlschema-core-2.2.1.jar"/>
 	<classpathentry kind="lib" path="build/test/lib/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="/home/mm/WorkSpace/nutch-1xx/lib/CLIJOptSimple-0.0.1-SNAPSHOT.jar" sourcepath="/home/mm/tmp/CLIJOptSimple/src/main/java"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -2809,10 +2809,18 @@ If true (default) the Sitemap parser rejects URLs not sharing the same
 </property>
 
 <property>
-  <name>indexer.set.remove.timing.subtitle.option</name>
+  <name>indexer.setting.remove.timing.subtitle.option</name>
   <value>false</value>
   <description>
     Include an additional NutchDocument element that contains both text and timing info
+   </description>
+</property>
+
+<property>
+  <name>indexer.setting.output.dir.option</name>
+	<value>crawl/youtubeCC</value>
+  <description>
+    The output directory for Youtube closed caption .srt files to be stored (one for each Youtube URL found containing CC data)
    </description>
 </property>
 

@@ -21,6 +21,7 @@ import java.lang.invoke.MethodHandles;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.lang.StringBuilder;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +34,15 @@ import org.apache.nutch.indexer.IndexingFilter;
 import org.apache.nutch.indexer.NutchDocument;
 import org.apache.nutch.parse.Parse;
 import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
+
+import java.io.File;
+import com.nenerbener.CLIJOptSimple;
+import joptsimple.OptionException;
+import joptsimple.ValueConversionException;
+import joptsimple.OptionParser;
+import joptsimple.OptionSet;
+import joptsimple.OptionSpec;
+import static joptsimple.util.RegexMatcher.*;
 // import org.json.JSONObject;
 
 /**
@@ -57,10 +67,13 @@ import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
 public class YoutubeCCReader implements IndexingFilter {
 
 	// process commandline parameters
+	private String inputFile;
+	private String outputDir;
+	private File fileOutputDir;
 	private Boolean settingDebugOption; // debug option default (set in method setConf())
 	private Boolean settingIncludeTitleOption; // include title option default (set in method setConf())
 	private Boolean settingIncludeTrackTitleOption; // include track title option default (set in method setConf())
-	private Boolean setRemoveTimingSubtitlesOption; // remove timing subtitles option default (set in method setConf())
+	private Boolean settingRemoveTimingSubtitleOption; // remove timing subtitles option default (set in method setConf())
 
 	private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 	private static final String CONF_PROPERTY = "youtubeccreader.tags";
@@ -68,6 +81,7 @@ public class YoutubeCCReader implements IndexingFilter {
 	private Configuration conf;
 
 	CoreNLPNERecogniser ner = null;
+	CLIJOptSimple cli = null;
 	
 	public NutchDocument filter(NutchDocument doc, Parse parse, Text url, CrawlDatum datum, Inlinks inlinks) {
 		
@@ -116,6 +130,43 @@ public class YoutubeCCReader implements IndexingFilter {
 			doc.add(key, strofnames);
 		}
 
+		//convert conf parameters to String[] args for JoptSimple commandline parsing.
+		//initialize CLIJOptSimple 
+		if (cli == null) {
+			cli = new CLIJOptSimple();
+			if (cli == null) {
+				LOG.error("CLIOptSimple not initialized successfully - terminating program");
+				System.exit(-1); //exit if fail
+			}
+		}
+		
+		//create string and split between spaces
+		inputFile = url.toString(); // convert URL from Hadoop Text to String class
+		StringBuilder sbarg = new StringBuilder("-i ").append(inputFile)
+				.append(" ").append("-o ").append(outputDir);
+		if (settingDebugOption)
+			sbarg.append(" ").append("-d");
+		if (settingIncludeTitleOption)
+			sbarg.append(" ").append("-t");
+		if (settingIncludeTrackTitleOption)
+			sbarg.append(" ").append("-r");
+		if (settingRemoveTimingSubtitleOption)
+			sbarg.append(" ").append("-m");
+		String[] args = sbarg.toString().split(" ");
+
+		try {
+			Boolean bl=cli.readCLI(args);
+			LOG.info("Successfully read youtube input file, outputdir and other conf params");
+		} catch (OptionException e) {
+			LOG.error(e.getMessage());
+			System.exit(0);
+		} catch (NullPointerException e) {
+			LOG.error(e.getMessage());
+			System.exit(0);
+		}
+		
+		
+		
 		//        JSONObject jNames = new JSONObject(names);
 		//        System.out.println(jNames.toString(2));
 
@@ -137,9 +188,10 @@ public class YoutubeCCReader implements IndexingFilter {
 	public void setConf(Configuration conf) {
 		this.conf = conf;
 		// process commandline parameters
+		this.outputDir = conf.get("indexer.setting.output.dir.option"); // output directory option (default to /tmp inside readCLI() method)
 		this.settingDebugOption = conf.getBoolean("indexer.setting.debug.option", false); // debug option
 		this.settingIncludeTitleOption = conf.getBoolean("indexer.setting.include.title.option", false); // include title option
 		this.settingIncludeTrackTitleOption = conf.getBoolean("indexer.setting.include.track.title.option", false); // include track title option
-		this.setRemoveTimingSubtitlesOption = conf.getBoolean("indexer.set.remove.timing.subtitle.option", true); // remove timing subtitles option
+		this.settingRemoveTimingSubtitleOption = conf.getBoolean("indexer.setting.remove.timing.subtitle.option", true); // remove timing subtitles option
 	}
 }
