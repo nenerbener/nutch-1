@@ -36,15 +36,14 @@ import org.apache.nutch.parse.Parse;
 import org.apache.tika.parser.ner.corenlp.CoreNLPNERecogniser;
 
 import java.io.File;
-import com.nenerbener.CLIJOptSimple;
 import joptsimple.OptionException;
 import joptsimple.ValueConversionException;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
 import static joptsimple.util.RegexMatcher.*;
-// import org.json.JSONObject;
-
+import com.nenerbener.driverSRT.DriverSRT;
+import com.google.common.base.*;
 /**
  * YoutubeCCReader performs multiple tasks should be separated into individual tasks in a later design.
  * 1) Performs NER on parse data (main free text content).
@@ -66,8 +65,13 @@ import static joptsimple.util.RegexMatcher.*;
  */
 public class YoutubeCCReader implements IndexingFilter {
 
-	// process commandline parameters
-	private String inputFile;
+	DriverSRT dsrt;
+	String regexInputFile; //Youtube.com page regex
+	String regexOutputDir; //Regex to avoid mkdir to make non-alphabet starting output dir
+	OptionSet options; //post-parsed options
+	String outputDirDefault; //default CC directory. Use /tmp after integration with solr
+	String parsedInputFile; 
+	String inputFile;
 	private String outputDir;
 	private File fileOutputDir;
 	private Boolean settingDebugOption; // debug option default (set in method setConf())
@@ -81,7 +85,19 @@ public class YoutubeCCReader implements IndexingFilter {
 	private Configuration conf;
 
 	CoreNLPNERecogniser ner = null;
-	CLIJOptSimple cli = null;
+//	CLIJOptSimple cli = null;
+
+	class FileCreateException extends Exception
+	{
+		// Parameterless Constructor
+		public FileCreateException() {}
+
+		// Constructor that accepts a message
+		public FileCreateException(String message)
+		{
+			super(message);
+		}
+	}
 	
 	public NutchDocument filter(NutchDocument doc, Parse parse, Text url, CrawlDatum datum, Inlinks inlinks) {
 		
@@ -130,43 +146,60 @@ public class YoutubeCCReader implements IndexingFilter {
 			doc.add(key, strofnames);
 		}
 
-		//convert conf parameters to String[] args for JoptSimple commandline parsing.
-		//initialize CLIJOptSimple 
-		if (cli == null) {
-			cli = new CLIJOptSimple();
-			if (cli == null) {
-				LOG.error("CLIOptSimple not initialized successfully - terminating program");
-				System.exit(-1); //exit if fail
-			}
-		}
-		
-		//create string and split between spaces
-		inputFile = url.toString(); // convert URL from Hadoop Text to String class
-		StringBuilder sbarg = new StringBuilder("-i ").append(inputFile)
-				.append(" ").append("-o ").append(outputDir);
-		if (settingDebugOption)
-			sbarg.append(" ").append("-d");
-		if (settingIncludeTitleOption)
-			sbarg.append(" ").append("-t");
-		if (settingIncludeTrackTitleOption)
-			sbarg.append(" ").append("-r");
-		if (settingRemoveTimingSubtitleOption)
-			sbarg.append(" ").append("-m");
-		String[] args = sbarg.toString().split(" ");
+		// This is the URL to check if Youtube video, if valid check if there is an attached default CC and download
+		// If not, just continue. Will want to add exception and case handling at a later time.
+		String[] inputFileArgs = {"--inputFile", url.toString()};
+		String[] outputDirArgs = {"--outputDir", outputDir};
+	
+		//create optionParser (arguments and characters template to parse against)
+		OptionParser optionParser = new OptionParser();
+		optionParser.accepts("inputFile").withRequiredArg().withValuesConvertedBy(regex(regexInputFile));
 
+
+		//perform parsing of args against created optionParser
 		try {
-			Boolean bl=cli.readCLI(args);
-			LOG.info("Successfully read youtube input file, outputdir and other conf params");
+			options = optionParser.parse(inputFileArgs);
+			inputFile = (String) options.valueOf("inputFile");
+			optionParser = new OptionParser();
+			optionParser.accepts("outputDir").withRequiredArg().withValuesConvertedBy(regex(regexOutputDir))
+			.defaultsTo(outputDirDefault);
+			try {
+				options = optionParser.parse(outputDirArgs);
+				outputDir = (String) options.valueOf("outputDir");
+			} catch (OptionException e) {
+				LOG.warn(e.getMessage());
+				LOG.warn("error creating ouputDir. Defaulting to " + outputDirDefault);
+				outputDir=outputDirDefault;
+				throw new FileCreateException();
+			}
+			fileOutputDir = new File(outputDir.toString());
+			if (!fileOutputDir.exists())  {
+				if (fileOutputDir.mkdirs()) {
+					LOG.info("Output directory is created: " + fileOutputDir);
+				} 
+				else {
+					outputDir = outputDirDefault;
+					LOG.warn("error creating ouputDir. Defaulting to " + outputDirDefault);
+				} 
+			} //from this point inputFile and outputDir are valid and method to DriverSRT call below
 		} catch (OptionException e) {
 			LOG.error(e.getMessage());
-			System.exit(0);
+			return doc;
 		} catch (NullPointerException e) {
 			LOG.error(e.getMessage());
-			System.exit(0);
-		}
+			return doc;
+		} catch (FileCreateException e) {
+		} //at this point, the inputFile (URL) is regex'ed correctly and the outputDir is created or set to default
 		
-		
-		
+		// call Youtube CC reader
+		dsrt= new DriverSRT(
+				inputFile,
+				outputDir,
+				settingDebugOption,
+				settingIncludeTitleOption,
+				settingIncludeTrackTitleOption,
+				settingRemoveTimingSubtitleOption);
+
 		//        JSONObject jNames = new JSONObject(names);
 		//        System.out.println(jNames.toString(2));
 
@@ -187,11 +220,22 @@ public class YoutubeCCReader implements IndexingFilter {
 	 */
 	public void setConf(Configuration conf) {
 		this.conf = conf;
-		// process commandline parameters
+
+		// read parameters from nutch configuration files (nutch-default.xml or nutch-site.xml)
 		this.outputDir = conf.get("indexer.setting.output.dir.option"); // output directory option (default to /tmp inside readCLI() method)
 		this.settingDebugOption = conf.getBoolean("indexer.setting.debug.option", false); // debug option
 		this.settingIncludeTitleOption = conf.getBoolean("indexer.setting.include.title.option", false); // include title option
 		this.settingIncludeTrackTitleOption = conf.getBoolean("indexer.setting.include.track.title.option", false); // include track title option
 		this.settingRemoveTimingSubtitleOption = conf.getBoolean("indexer.setting.remove.timing.subtitle.option", true); // remove timing subtitles option
+
+		// regex and defaults for Youtube video pages
+		regexInputFile = "^https?://(www.)?youtube.com/watch\\?v=[\\w-=]{11}$"; //Youtube.com page regex
+		regexOutputDir = "^[^-+&@#%?=~|!:,;].+"; //Regex to avoid mkdir to make non-alphabet starting output dir
+		outputDirDefault = System.getProperty( "java.io.tmpdir" ); //returns static, is this legal?
+		LOG.info("className: " + MethodHandles.lookup().lookupClass());
+		LOG.info("regexInputFile: " + regexInputFile);
+		LOG.info("regexOutputDir: " + regexOutputDir);
+		LOG.info("outputDirDefault: " + outputDirDefault);
+	
 	}
 }

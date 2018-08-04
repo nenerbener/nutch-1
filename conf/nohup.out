@@ -1,0 +1,1 @@
+[Parent 65520, Gecko_IOThread] WARNING: pipe error (34): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
