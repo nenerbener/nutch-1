@@ -1,0 +1,4 @@
+ExceptionHandler::GenerateDump cloned child 48440
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+[Parent 47112, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
