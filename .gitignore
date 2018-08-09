@@ -3,3 +3,4 @@ crawl
 runtime
 logs
 hadoop*.*
+nohup.out
