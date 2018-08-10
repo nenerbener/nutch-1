@@ -2810,7 +2810,7 @@ If true (default) the Sitemap parser rejects URLs not sharing the same
 
 <property>
   <name>indexer.setting.remove.timing.subtitle.option</name>
-  <value>false</value>
+  <value>true</value>
   <description>
     Include an additional NutchDocument element that contains both text and timing info
    </description>
