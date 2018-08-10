@@ -42,7 +42,10 @@
 			<exclude org="com.sun.jdmk" name="jmxtools" />
 			<exclude org="com.sun.jmx" name="jmxri" />
 		</dependency-->
-		
+
+		<!-- https://mvnrepository.com/artifact/jdom/jdom -->
+		<dependency org="jdom" name="jdom" rev="1.0" conf="*->*,!sources,!javadoc"/>
+
 		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="*->default" />
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="*->master" />
 		<dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" conf="*->master" />

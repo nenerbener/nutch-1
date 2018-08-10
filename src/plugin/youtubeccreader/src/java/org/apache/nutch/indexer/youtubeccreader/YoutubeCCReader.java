@@ -44,6 +44,8 @@ import joptsimple.OptionSpec;
 import static joptsimple.util.RegexMatcher.*;
 import com.nenerbener.driverSRT.DriverSRT;
 import com.google.common.base.*;
+import org.jdom.Document;
+
 /**
  * YoutubeCCReader performs multiple tasks should be separated into individual tasks in a later design.
  * 1) Performs NER on parse data (main free text content).
@@ -86,6 +88,8 @@ public class YoutubeCCReader implements IndexingFilter {
 
 	CoreNLPNERecogniser ner = null;
 //	CLIJOptSimple cli = null;
+	
+	Document domDoc; // DOM document returned from retrieveSRT
 
 	class FileCreateException extends Exception
 	{
@@ -155,7 +159,14 @@ public class YoutubeCCReader implements IndexingFilter {
 		OptionParser optionParser = new OptionParser();
 		optionParser.accepts("inputFile").withRequiredArg().withValuesConvertedBy(regex(regexInputFile));
 
-
+//		if (!controller.processInputURL()) {
+//		LOG.info("Method exited abnormally. URL has not attached closed caption track.");
+//		return;
+//	} 
+//	if (!controller.convertSubtitlesTracks()) {
+//		LOG.info("Method abnormally. Could not download closed caption data successfully.");
+//		return;
+//	}
 		//perform parsing of args against created optionParser
 		try {
 			options = optionParser.parse(inputFileArgs);
@@ -203,7 +214,19 @@ public class YoutubeCCReader implements IndexingFilter {
 		//        JSONObject jNames = new JSONObject(names);
 		//        System.out.println(jNames.toString(2));
 
-		return doc;
+		// retrieve the closed caption DOM Document, if exists
+//		try {
+			domDoc = dsrt.retrieveSRT();
+//		} 
+		if(domDoc == null) {
+			return doc; //return Nutch Document without any Youtube CC addition
+		}
+		return doc; // return Nutch Document with Youtube CC addition
+//		catch (Exception e) {
+//			return doc; //return Nutch Document without any Youtube CC addition
+//		}
+//		
+//		return doc; // return Nutch Document with Youtube CC addition
 	}
 
 	/**
