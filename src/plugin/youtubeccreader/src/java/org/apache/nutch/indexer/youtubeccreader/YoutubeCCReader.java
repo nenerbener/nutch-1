@@ -224,7 +224,7 @@ public class YoutubeCCReader implements IndexingFilter {
 		
 		// process variable domDoc (DOM Document) and add to variable doc (Nutch Document)
 		String ccString = dsrt.processSRT();
-		doc.add("Closed-caption",ccString);
+		doc.add("closedcaption",ccString);
 		
 		return doc; // return Nutch Document with Youtube CC addition
 //		catch (Exception e) {

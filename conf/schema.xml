@@ -348,6 +348,9 @@
     <field name="ner-time" type="text_general" stored="true" indexed="true"/>
     <field name="ner-percent" type="text_general" stored="true" indexed="true"/>
 
+	<!-- EXPERIMENT: youtubeccreader YOUTUBE CLOSED CAPTION -->
+    <field name="closedcaption" type="text_general" stored="true" indexed="true"/>
+
     <!-- fields for index-geoip plugin -->
     <field name="ip" type="string" stored="true" indexed="true" />
     <field name="cityName" type="string" stored="true" indexed="true" />

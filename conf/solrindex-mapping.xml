@@ -47,6 +47,7 @@
     <field dest="ner-time" source="TIME"/>
     <field dest="ner-percent" source="PERCENT"/>
     <field dest="tstamp" source="tstamp"/>
+    <field dest="closedcaption" source="closedcaption"/>
   </fields>
   <uniqueKey>id</uniqueKey>
 </mapping>
