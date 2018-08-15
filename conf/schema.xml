@@ -339,7 +339,7 @@
     <!-- EXPERIMENT: contentlength field added -->
     <field name="contentlength" type="long" stored="true" indexed="true"/>
 
-	<!-- EXPERIMENT: contentner ORGANIZATION -->
+	<!-- EXPERIMENT: ner applied to parsed content string -->
     <field name="ner-location" type="text_general" stored="true" indexed="true"/>
     <field name="ner-organization" type="text_general" stored="true" indexed="true"/>
     <field name="ner-date" type="text_general" stored="true" indexed="true"/>
@@ -347,6 +347,15 @@
     <field name="ner-person" type="text_general" stored="true" indexed="true"/>
     <field name="ner-time" type="text_general" stored="true" indexed="true"/>
     <field name="ner-percent" type="text_general" stored="true" indexed="true"/>
+
+	<!-- EXPERIMENT: ner applied to closed caption string -->
+    <field name="cc-ner-location" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-organization" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-date" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-money" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-person" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-time" type="text_general" stored="true" indexed="true"/>
+    <field name="cc-ner-percent" type="text_general" stored="true" indexed="true"/>
 
 	<!-- EXPERIMENT: youtubeccreader YOUTUBE CLOSED CAPTION -->
     <field name="closedcaption" type="text_general" stored="true" indexed="true"/>

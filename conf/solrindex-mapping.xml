@@ -46,6 +46,13 @@
     <field dest="ner-person" source="PERSON"/>
     <field dest="ner-time" source="TIME"/>
     <field dest="ner-percent" source="PERCENT"/>
+    <field dest="cc-ner-location" source="CC-LOCATION"/>
+    <field dest="cc-ner-organization" source="CC-ORGANIZATION"/>
+    <field dest="cc-ner-date" source="CC-DATE"/>
+    <field dest="cc-ner-money" source="CC-MONEY"/>
+    <field dest="cc-ner-person" source="CC-PERSON"/>
+    <field dest="cc-ner-time" source="CC-TIME"/>
+    <field dest="cc-ner-percent" source="CC-PERCENT"/>
     <field dest="tstamp" source="tstamp"/>
     <field dest="closedcaption" source="closedcaption"/>
   </fields>

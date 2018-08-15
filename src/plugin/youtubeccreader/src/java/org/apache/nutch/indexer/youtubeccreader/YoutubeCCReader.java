@@ -226,6 +226,53 @@ public class YoutubeCCReader implements IndexingFilter {
 		String ccString = dsrt.processSRT();
 		doc.add("closedcaption",ccString);
 		
+		//NER for Youtube Closed Caption (This will add additional Solr tags
+		//cc-ner-location, cc-ner-organization, cc-ner-date, cc-ner-money, cc-ner-person, cc-ner-time, cc-ner-percent
+		//parse.getText() returns the main body of unstructured text containing person and entity names
+		
+		//initialize CoreNLPNERecogniser and load dictionaries (FIX: dictionary name is hardcoded)
+		if (ner == null) {
+			ner = new CoreNLPNERecogniser();
+			if (ner == null) {
+				LOG.error("CoreNLPNERegcognizer not initialized successfully - terminating program");
+				System.exit(-1); //exit if fail
+			}
+		}
+
+		// call NER recognize() on parse content returning the map of key-value pairs described above.
+		Map<String, Set<String>> ccnames = ner.recognise(ccString);
+		
+		//loop through NER results, flatten to Map<String>,String> using StringBuilder and add map entries to doc
+		Set<Map.Entry<String,Set<String>>> cces = ccnames.entrySet();
+		
+		//iterate through keys
+		Iterator<Map.Entry<String,Set<String>>> cciterator = cces.iterator();
+		while (cciterator.hasNext()) {
+			Map.Entry<String,Set<String>> me = cciterator.next();
+			String key = me.getKey();
+			String ccKey = "CC-" + key;
+			
+			//iterate through values
+			Set<String> esv = me.getValue();
+			
+			//iterate through names, entity set
+			Iterator<String> setIterator = esv.iterator();
+			String strofnames = new String();
+			while (setIterator.hasNext()) {
+				String value = setIterator.next();
+				
+				//build appended string of names, entities,...
+				strofnames = new StringBuilder(strofnames).append(value).toString();
+				
+				//add " : " separator, do not add at end of appended string
+				if (setIterator.hasNext()) strofnames = new StringBuilder(strofnames).append(" : ").toString();
+			}
+			System.out.println("key val: " + ccKey + ": " + strofnames);
+			
+			// add key, entities to doc
+			doc.add(ccKey, strofnames);
+		}
+
 		return doc; // return Nutch Document with Youtube CC addition
 //		catch (Exception e) {
 //			return doc; //return Nutch Document without any Youtube CC addition

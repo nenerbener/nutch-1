@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin version="1.0.0" provider-name="marc mceachern" id="contentner-cc" name="Add contentner-cc fields to Index">
+ 
+   <runtime>
+     <library name="contentner-cc.jar">
+       <export name="*"/>
+     </library>
+   </runtime>
+ 
+   <extension point="org.apache.nutch.indexer.IndexingFilter" id="org.apache.nutch.indexer.contentnercc" name="Add contentner-cc fields to Index">
+     <implementation id="contentner-cc" class="org.apache.nutch.indexer.contentnercc.ContentNERCC"/>
+   </extension>
+</plugin>
