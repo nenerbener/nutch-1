@@ -47,8 +47,8 @@ import com.google.common.base.*;
 import org.jdom.Document;
 
 /**
- * YoutubeCCReader performs multiple tasks should be separated into individual tasks in a later design.
- * 1) Performs NER on parse data (main free text content).
+ * YoutubeCCReader performs multiple tasks. This monolithic implementation was due to the ease of accessing the NutchDocument object.
+ * 1) Performs NER on parse data (static webpage's main content).
  * 2) identifies Youtube pages with embedded video and downloads the default closed caption data where available.
  * 3) The method then applies NER on the CC data. 
  * 4) Parse NER data, Youtube closed caption data, closed caption NER data and cc timing data are then added to the
@@ -59,6 +59,8 @@ import org.jdom.Document;
  * value (list of persons|list of organizations,...).The lists of persons,..,organizations 
  * are extracted from the parsed text.
  * 
+ * To send to Solr through REST API, Nutch conf/schema.xml must be copied to Solr nutch core conf directory/managed-schema file
+ * 
  * @see IndexingFilter#filter
  * @return doc
  * @param parse
@@ -67,12 +69,12 @@ import org.jdom.Document;
  */
 public class YoutubeCCReader implements IndexingFilter {
 
-	DriverSRT dsrt;
+	DriverSRT dsrt; //Youtube closed caption processor
 	String regexInputFile; //Youtube.com page regex
 	String regexOutputDir; //Regex to avoid mkdir to make non-alphabet starting output dir
 	OptionSet options; //post-parsed options
 	String outputDirDefault; //default CC directory. Use /tmp after integration with solr
-	String parsedInputFile; 
+//	String parsedInputFile; 
 	String inputFile;
 	private String outputDir;
 	private File fileOutputDir;
@@ -296,17 +298,22 @@ public class YoutubeCCReader implements IndexingFilter {
 	public void setConf(Configuration conf) {
 		this.conf = conf;
 
+		// regex and defaults for Youtube video pages
+		this.regexInputFile = conf.get("indexer.setting.youtubeccreader.regex.input.file",
+				"^https?://(www.)?youtube.com/watch\\?v=[\\w-=]{11}$");
+		this.regexOutputDir = "^[^-+&@#%?=~|!:,;].+"; //Regex to avoid mkdir to make non-alphabet starting output dir
+		this.outputDirDefault = System.getProperty( "java.io.tmpdir" ); //returns static, is this legal?
+		this.outputDir = conf.get("indexer.setting.youtubeccreader.output.dir.option",outputDirDefault); // output directory option (default to /tmp inside readCLI() method)
+
 		// read parameters from nutch configuration files (nutch-default.xml or nutch-site.xml)
-		this.outputDir = conf.get("indexer.setting.output.dir.option"); // output directory option (default to /tmp inside readCLI() method)
 		this.settingDebugOption = conf.getBoolean("indexer.setting.debug.option", false); // debug option
 		this.settingIncludeTitleOption = conf.getBoolean("indexer.setting.include.title.option", false); // include title option
 		this.settingIncludeTrackTitleOption = conf.getBoolean("indexer.setting.include.track.title.option", false); // include track title option
 		this.settingRemoveTimingSubtitleOption = conf.getBoolean("indexer.setting.remove.timing.subtitle.option", true); // remove timing subtitles option
 
-		// regex and defaults for Youtube video pages
-		regexInputFile = "^https?://(www.)?youtube.com/watch\\?v=[\\w-=]{11}$"; //Youtube.com page regex
-		regexOutputDir = "^[^-+&@#%?=~|!:,;].+"; //Regex to avoid mkdir to make non-alphabet starting output dir
-		outputDirDefault = System.getProperty( "java.io.tmpdir" ); //returns static, is this legal?
+//		String regexInputFileOrig = "^https?://(www.)?youtube.com/watch\\?v=[\\w-=]{11}$"; //Youtube.com page regex
+//		Boolean bool = regexInputFile.equals(regexInputFileOrig);
+//		regexInputFile = "^https?://(www.)?youtube.com/watch\\?v=[\\w-=]{11}$"; //Youtube.com page regex
 		LOG.info("className: " + MethodHandles.lookup().lookupClass());
 		LOG.info("regexInputFile: " + regexInputFile);
 		LOG.info("regexOutputDir: " + regexOutputDir);

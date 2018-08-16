@@ -2817,10 +2817,18 @@ If true (default) the Sitemap parser rejects URLs not sharing the same
 </property>
 
 <property>
-  <name>indexer.setting.output.dir.option</name>
+  <name>indexer.setting.youtubeccreader.regex.input.file</name>
+	<value>^https?://(www.)?youtube.com/watch\?v=[\w-=]{11}$</value>
+  <description>
+		The youtube URI filter, defaults to ^https?://(www.)?youtube.com/watch\?v=[\w-=]{11}$ in YoutubeCCReader class. Configuration class adds \ prepended to \, so do not prepend in this file.
+   </description>
+</property>
+
+<property>
+  <name>indexer.setting.youtubeccreader.output.dir.option</name>
 	<value>crawl/youtubeCC</value>
   <description>
-    The output directory for Youtube closed caption .srt files to be stored (one for each Youtube URL found containing CC data)
+		The output directory for Youtube closed caption .srt files to be stored (one for each Youtube URL found containing CC data). Defaults to /tmp.
    </description>
 </property>
 
