@@ -4,3 +4,5 @@ runtime
 logs
 hadoop*.*
 nohup.out
+conf/.*
+!.gitignore
