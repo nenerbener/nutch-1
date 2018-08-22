@@ -215,7 +215,8 @@
 
 <property>
   <name>http.content.limit</name>
-  <value>65536</value>
+	<!--  <value>65536</value>-->
+  <value>-1</value>
   <description>The length limit for downloaded content using the http://
   protocol, in bytes. If this value is nonnegative (>=0), content longer
   than it will be truncated; otherwise, no truncation at all. Do not
@@ -1265,7 +1266,10 @@
 
 <property>
   <name>plugin.includes</name>
-  <value>protocol-http|urlfilter-(regex|validator)|parse-tika|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)|contentlength|youtubeccreader</value>
+	<!--  
+	<value>protocol-http|urlfilter-(regex|validator)|parse-tika|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)|contentlength|youtubeccreader</value>
+	-->
+  <value>protocol-http|urlfilter-(regex|validator)|parse-tika|parsefilter-regex|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)|contentlength|youtubeccreader</value>
   <description>Regular expression naming plugin directory names to
   include.  Any plugin not matching this expression is excluded.
   In any case you need at least include the nutch-extensionpoints plugin. By
@@ -1378,6 +1382,22 @@
 </property>
 
 <property>
+	<name>parsefilter.regex.file</name>
+	<value>/home/mm/WorkSpace/nutch-1xx/conf/regex-parsefilter.txt</value>
+	<description>The rules file for parsefilter-regex</description>
+</property>
+
+<!--
+<property>
+	<name>parsefilter.regex.rules</name>
+	<value>
+twitter_creator	html	twitter:creator
+	</value>
+	<description>The rules for parsefilter-regex</description>
+</property>
+-->
+
+<property>
   <name>parsefilter.naivebayes.trainfile</name>
   <value>naivebayes-train.txt</value>
   <description>Set the name of the file to be used for Naive Bayes training. The format will be: 
@@ -1462,7 +1482,7 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 
 <property>
   <name>tika.extractor</name>
-  <value>boilerpipe</value>
+	<value>boilerpipe</value>
   <description>
   Which text extraction algorithm to use. Valid values are: boilerpipe or none.
   </description>

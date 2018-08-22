@@ -6,3 +6,4 @@
 # extracted text.
 #
 # format: <name>\t<source>\t<regex>\n
+twitter_creator	html	\<meta\sname\=\"twitter:creator\"\scontent\=\"@[\w]+\"\>

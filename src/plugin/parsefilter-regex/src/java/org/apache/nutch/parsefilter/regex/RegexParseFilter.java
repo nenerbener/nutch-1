@@ -36,12 +36,14 @@ import org.apache.nutch.parse.ParseResult;
 import org.apache.nutch.plugin.Extension;
 import org.apache.nutch.plugin.PluginRepository;
 import org.apache.nutch.protocol.Content;
-
 import org.apache.commons.lang.StringUtils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.DocumentFragment;
+
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * RegexParseFilter. If a regular expression matches either HTML or 
@@ -59,6 +61,19 @@ public class RegexParseFilter implements HtmlParseFilter {
   
   private static final Map<String,RegexRule> rules = new HashMap<>();
   
+  //holds a beginning and ending index of a single regex search
+  private class BeginEnd {
+	  int begin;
+	  int end;
+	  BeginEnd(int b, int e) {
+		 begin = b;
+		 end =e;
+	  }
+  }
+  
+  //holds a list of regex begin/ends markers
+  private List<BeginEnd> listBeginEnd;
+
   public RegexParseFilter() {
     //default constructor
   }
@@ -90,9 +105,16 @@ public class RegexParseFilter implements HtmlParseFilter {
       
       if (matches(source, regexRule.regex)) {
         parse.getData().getParseMeta().set(field, "true");
+        listBeginEnd = matchesGetList(source, regexRule.regex);
       } else {
         parse.getData().getParseMeta().set(field, "false");
       }
+      LOG.info("URL: " + content.getUrl());
+      LOG.debug("Source: " + source);
+      for(BeginEnd elem : listBeginEnd) {
+    	  LOG.info("Begin End result: " + elem.begin + " " + elem.end + " " + source.substring(elem.begin,elem.end));
+      }
+    	  
     }
     
     return parseResult;
@@ -168,6 +190,22 @@ public class RegexParseFilter implements HtmlParseFilter {
     }
        
     return false;
+  }
+  
+  private List<BeginEnd> matchesGetList(String value, Pattern pattern) {
+	List<BeginEnd> lBE = new ArrayList<BeginEnd>();
+	boolean match = false;
+    if (value != null) {
+      Matcher matcher = pattern.matcher(value);
+      do {
+    	  if (match = matcher.find()) {
+    		  BeginEnd be = new BeginEnd(matcher.start(),matcher.end());
+    		  lBE.add(be);
+    	  }
+      } while (match);
+    }
+       
+    return lBE;
   }
   
   private synchronized void readConfiguration(Reader configReader) throws IOException {
