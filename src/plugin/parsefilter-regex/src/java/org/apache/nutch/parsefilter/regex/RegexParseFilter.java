@@ -72,7 +72,7 @@ public class RegexParseFilter implements HtmlParseFilter {
   }
   
   //holds a list of regex begin/ends markers
-  private List<BeginEnd> listBeginEnd;
+  private List<BeginEnd> listBeginEnd = null;
 
   public RegexParseFilter() {
     //default constructor
@@ -111,8 +111,10 @@ public class RegexParseFilter implements HtmlParseFilter {
       }
       LOG.info("URL: " + content.getUrl());
       LOG.debug("Source: " + source);
-      for(BeginEnd elem : listBeginEnd) {
-    	  LOG.info("Begin End result: " + elem.begin + " " + elem.end + " " + source.substring(elem.begin,elem.end));
+      if (!(listBeginEnd == null)) {
+    	  for(BeginEnd elem : listBeginEnd) {
+    		  LOG.info("Begin End result: " + elem.begin + " " + elem.end + " " + source.substring(elem.begin,elem.end));
+    	  }
       }
     	  
     }
