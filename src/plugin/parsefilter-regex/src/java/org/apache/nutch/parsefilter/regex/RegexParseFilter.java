@@ -83,6 +83,7 @@ public class RegexParseFilter implements HtmlParseFilter {
   }
 
   public ParseResult filter(Content content, ParseResult parseResult, HTMLMetaTags metaTags, DocumentFragment doc) {
+	StringBuilder sb = new StringBuilder();
     Parse parse = parseResult.get(content.getUrl());
     String html = new String(content.getContent());
     String text = parse.getText();
@@ -103,20 +104,30 @@ public class RegexParseFilter implements HtmlParseFilter {
         LOG.error("source for regex rule: " + field + " misconfigured");
       }
       
+      // find all entry matches in source
       if (matches(source, regexRule.regex)) {
         parse.getData().getParseMeta().set(field, "true");
         listBeginEnd = matchesGetList(source, regexRule.regex);
+        
+      // convert list to " : " separated string of regex results
+        for(BeginEnd elem : listBeginEnd) {
+        	sb.append(source.substring(elem.begin,elem.end) + " : ");
+        }
       } else {
         parse.getData().getParseMeta().set(field, "false");
       }
+      
+      // write regex results to parse object metadata
+      parse.getData().getParseMeta().set(field + "_values", sb.toString());
+
       LOG.info("URL: " + content.getUrl());
       LOG.debug("Source: " + source);
-      if (!(listBeginEnd == null)) {
-    	  for(BeginEnd elem : listBeginEnd) {
-    		  LOG.info("Begin End result: " + elem.begin + " " + elem.end + " " + source.substring(elem.begin,elem.end));
-    	  }
-      }
-    	  
+      LOG.info("matches: " + sb.toString());
+//      if (!(listBeginEnd == null)) {
+//    	  for(BeginEnd elem : listBeginEnd) {
+//    		  LOG.info("Begin End result: " + elem.begin + " " + elem.end + " " + source.substring(elem.begin,elem.end));
+//    	  }
+//      }
     }
     
     return parseResult;

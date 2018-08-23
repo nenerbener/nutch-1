@@ -55,6 +55,8 @@
     <field dest="cc-ner-percent" source="CC-PERCENT"/>
     <field dest="tstamp" source="tstamp"/>
     <field dest="closedcaption" source="closedcaption"/>
+    <field dest="twitter-creator" source="twitter_creator"/>
+    <field dest="twitter-creator-values" source="twitter_creator_values"/>
   </fields>
   <uniqueKey>id</uniqueKey>
 </mapping>

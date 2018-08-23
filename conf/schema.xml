@@ -360,6 +360,10 @@
 	<!-- EXPERIMENT: youtubeccreader YOUTUBE CLOSED CAPTION -->
     <field name="closedcaption" type="text_general" stored="true" indexed="true"/>
 
+	<!-- EXPERIMENT: capturing twitter information from fetched pages -->
+    <field name="twitter-creator" type="text_general" stored="true" indexed="true"/>
+    <field name="twitter-creator-values" type="text_general" stored="true" indexed="true"/>
+
     <!-- fields for index-geoip plugin -->
     <field name="ip" type="string" stored="true" indexed="true" />
     <field name="cityName" type="string" stored="true" indexed="true" />

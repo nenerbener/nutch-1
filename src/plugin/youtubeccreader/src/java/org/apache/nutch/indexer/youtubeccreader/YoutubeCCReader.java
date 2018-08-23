@@ -110,6 +110,14 @@ public class YoutubeCCReader implements IndexingFilter {
 		//parse.getText() returns the main body of unstructured text containing person and entity names
 		String content = parse.getText();
 		
+		//extract twitter_creator from Parse object and copy to NutchDocument object
+		String twitter_creator = parse.getData().getParseMeta().get("twitter_creator");
+		doc.add("twitter_creator",twitter_creator);
+		
+		//do the same for twitter_creator_values
+		String twitter_creator_values = parse.getData().getParseMeta().get("twitter_creator_values");
+		doc.add("twitter_creator_values",twitter_creator_values);
+		
 		//initialize CoreNLPNERecogniser and load dictionaries (FIX: dictionary name is hardcoded)
 		if (ner == null) {
 			ner = new CoreNLPNERecogniser();
@@ -119,7 +127,7 @@ public class YoutubeCCReader implements IndexingFilter {
 			}
 		}
 
-		// call NER recognize() on parse content returning the map of key-value pairs described above.
+		//call NER recognize() on parse content returning the map of key-value pairs described above.
 		Map<String, Set<String>> names = ner.recognise(content);
 		
 		//loop through NER results, flatten to Map<String>,String> using StringBuilder and add map entries to doc
